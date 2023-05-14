@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D10EB5776C1ECEC2A3C4716 /* Pods_Guru_Food_Guru_FoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403565CD1F885BBCEA1B9947 /* Pods_Guru_Food_Guru_FoodUITests.framework */; };
+		5E82E177E57FE330637653D5 /* Pods_Guru_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8565FA1F1D504CAACB756C5D /* Pods_Guru_Food.framework */; };
 		B67A5D192A110010009005CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D182A110010009005CD /* AppDelegate.swift */; };
 		B67A5D1B2A110010009005CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1A2A110010009005CD /* SceneDelegate.swift */; };
 		B67A5D1D2A110010009005CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1C2A110010009005CD /* ViewController.swift */; };
-		B67A5D202A110010009005CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D1E2A110010009005CD /* Main.storyboard */; };
+		B67A5D202A110010009005CD /* WelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */; };
 		B67A5D232A110010009005CD /* Guru_Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */; };
 		B67A5D252A110013009005CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D242A110013009005CD /* Assets.xcassets */; };
 		B67A5D282A110013009005CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D262A110013009005CD /* LaunchScreen.storyboard */; };
 		B67A5D332A110014009005CD /* Guru_FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D322A110014009005CD /* Guru_FoodTests.swift */; };
 		B67A5D3D2A110014009005CD /* Guru_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */; };
 		B67A5D3F2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */; };
+		BB940A1B097DBE0630A40E76 /* Pods_Guru_FoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A39A9ABF663A2F1C995DA38 /* Pods_Guru_FoodTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291FA92FCA7EE8D7568C75EA /* Pods-Guru FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru FoodTests.debug.xcconfig"; path = "Target Support Files/Pods-Guru FoodTests/Pods-Guru FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		403565CD1F885BBCEA1B9947 /* Pods_Guru_Food_Guru_FoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guru_Food_Guru_FoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6B7ECB78D8B0018D3B6824 /* Pods-Guru Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru Food.release.xcconfig"; path = "Target Support Files/Pods-Guru Food/Pods-Guru Food.release.xcconfig"; sourceTree = "<group>"; };
+		802682B569E1D8C82D25B7B6 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru Food-Guru FoodUITests.release.xcconfig"; path = "Target Support Files/Pods-Guru Food-Guru FoodUITests/Pods-Guru Food-Guru FoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8565FA1F1D504CAACB756C5D /* Pods_Guru_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guru_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A39A9ABF663A2F1C995DA38 /* Pods_Guru_FoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guru_FoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D7D95711EF7DCCCD0EBA5B /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru Food-Guru FoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-Guru Food-Guru FoodUITests/Pods-Guru Food-Guru FoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B67A5D152A110010009005CD /* Guru Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guru Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67A5D182A110010009005CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67A5D1A2A110010009005CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B67A5D1C2A110010009005CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B67A5D1F2A110010009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67A5D1F2A110010009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WelcomeScreen.storyboard; sourceTree = "<group>"; };
 		B67A5D222A110010009005CD /* Guru_Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guru_Food.xcdatamodel; sourceTree = "<group>"; };
 		B67A5D242A110013009005CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67A5D272A110013009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		B67A5D382A110014009005CD /* Guru FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guru FoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITests.swift; sourceTree = "<group>"; };
 		B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2149F4CEEE808B73E30A0B5 /* Pods-Guru FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Guru FoodTests/Pods-Guru FoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7386046E2BA4717F4CB19ED /* Pods-Guru Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru Food.debug.xcconfig"; path = "Target Support Files/Pods-Guru Food/Pods-Guru Food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E82E177E57FE330637653D5 /* Pods_Guru_Food.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB940A1B097DBE0630A40E76 /* Pods_Guru_FoodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D10EB5776C1ECEC2A3C4716 /* Pods_Guru_Food_Guru_FoodUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09D77EE9811101D2BAADAA90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7386046E2BA4717F4CB19ED /* Pods-Guru Food.debug.xcconfig */,
+				5F6B7ECB78D8B0018D3B6824 /* Pods-Guru Food.release.xcconfig */,
+				A1D7D95711EF7DCCCD0EBA5B /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */,
+				802682B569E1D8C82D25B7B6 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */,
+				291FA92FCA7EE8D7568C75EA /* Pods-Guru FoodTests.debug.xcconfig */,
+				C2149F4CEEE808B73E30A0B5 /* Pods-Guru FoodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B67A5D0C2A110010009005CD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				B67A5D312A110014009005CD /* Guru FoodTests */,
 				B67A5D3B2A110014009005CD /* Guru FoodUITests */,
 				B67A5D162A110010009005CD /* Products */,
+				09D77EE9811101D2BAADAA90 /* Pods */,
+				DDBF23EFF37D45842932A618 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +131,12 @@
 		B67A5D172A110010009005CD /* Guru Food */ = {
 			isa = PBXGroup;
 			children = (
-				B67A5D182A110010009005CD /* AppDelegate.swift */,
-				B67A5D1A2A110010009005CD /* SceneDelegate.swift */,
+				B67A5D512A11108E009005CD /* AppCore */,
+				B67A5D4E2A110883009005CD /* Modules */,
+				B67A5D4C2A110377009005CD /* Resources */,
+				B67A5D522A111DB1009005CD /* CoreData */,
+				B67A5D4B2A11030B009005CD /* AppDelegates */,
 				B67A5D1C2A110010009005CD /* ViewController.swift */,
-				B67A5D1E2A110010009005CD /* Main.storyboard */,
-				B67A5D242A110013009005CD /* Assets.xcassets */,
-				B67A5D262A110013009005CD /* LaunchScreen.storyboard */,
-				B67A5D292A110013009005CD /* Info.plist */,
-				B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */,
 			);
 			path = "Guru Food";
 			sourceTree = "<group>";
@@ -130,6 +158,98 @@
 			path = "Guru FoodUITests";
 			sourceTree = "<group>";
 		};
+		B67A5D4B2A11030B009005CD /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D1A2A110010009005CD /* SceneDelegate.swift */,
+				B67A5D182A110010009005CD /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B67A5D4C2A110377009005CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D292A110013009005CD /* Info.plist */,
+				B67A5D242A110013009005CD /* Assets.xcassets */,
+				B67A5D4D2A110492009005CD /* LaunchScreen */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B67A5D4D2A110492009005CD /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D262A110013009005CD /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B67A5D4E2A110883009005CD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D562A111E33009005CD /* RecipeDetails */,
+				B67A5D552A111E10009005CD /* Favourites */,
+				B67A5D542A111E03009005CD /* Home */,
+				B67A5D532A111DF8009005CD /* WelcomeScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B67A5D512A11108E009005CD /* AppCore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppCore;
+			sourceTree = "<group>";
+		};
+		B67A5D522A111DB1009005CD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B67A5D532A111DF8009005CD /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		B67A5D542A111E03009005CD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B67A5D552A111E10009005CD /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		B67A5D562A111E33009005CD /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RecipeDetails;
+			sourceTree = "<group>";
+		};
+		DDBF23EFF37D45842932A618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8565FA1F1D504CAACB756C5D /* Pods_Guru_Food.framework */,
+				403565CD1F885BBCEA1B9947 /* Pods_Guru_Food_Guru_FoodUITests.framework */,
+				9A39A9ABF663A2F1C995DA38 /* Pods_Guru_FoodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67A5D422A110014009005CD /* Build configuration list for PBXNativeTarget "Guru Food" */;
 			buildPhases = (
+				DD191751B34E3A103131F29E /* [CP] Check Pods Manifest.lock */,
 				B67A5D112A110010009005CD /* Sources */,
 				B67A5D122A110010009005CD /* Frameworks */,
 				B67A5D132A110010009005CD /* Resources */,
+				1BF0BA95F7F1470D8CE0410C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67A5D452A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodTests" */;
 			buildPhases = (
+				B2243F0EB1BA78EB38234EF3 /* [CP] Check Pods Manifest.lock */,
 				B67A5D2A2A110014009005CD /* Sources */,
 				B67A5D2B2A110014009005CD /* Frameworks */,
 				B67A5D2C2A110014009005CD /* Resources */,
@@ -172,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67A5D482A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodUITests" */;
 			buildPhases = (
+				DAC502C4BEF4A30327ED7962 /* [CP] Check Pods Manifest.lock */,
 				B67A5D342A110014009005CD /* Sources */,
 				B67A5D352A110014009005CD /* Frameworks */,
 				B67A5D362A110014009005CD /* Resources */,
+				0699BA776DEFADCC41262BCD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +361,7 @@
 			files = (
 				B67A5D282A110013009005CD /* LaunchScreen.storyboard in Resources */,
 				B67A5D252A110013009005CD /* Assets.xcassets in Resources */,
-				B67A5D202A110010009005CD /* Main.storyboard in Resources */,
+				B67A5D202A110010009005CD /* WelcomeScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +380,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0699BA776DEFADCC41262BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guru Food-Guru FoodUITests/Pods-Guru Food-Guru FoodUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guru Food-Guru FoodUITests/Pods-Guru Food-Guru FoodUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guru Food-Guru FoodUITests/Pods-Guru Food-Guru FoodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BF0BA95F7F1470D8CE0410C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guru Food/Pods-Guru Food-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Guru Food/Pods-Guru Food-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Guru Food/Pods-Guru Food-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2243F0EB1BA78EB38234EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guru FoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC502C4BEF4A30327ED7962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guru Food-Guru FoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD191751B34E3A103131F29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Guru Food-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B67A5D112A110010009005CD /* Sources */ = {
@@ -301,12 +529,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B67A5D1E2A110010009005CD /* Main.storyboard */ = {
+		B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B67A5D1F2A110010009005CD /* Base */,
 			);
-			name = Main.storyboard;
+			name = WelcomeScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		B67A5D262A110013009005CD /* LaunchScreen.storyboard */ = {
@@ -370,6 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -424,6 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -436,16 +666,17 @@
 		};
 		B67A5D432A110014009005CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7386046E2BA4717F4CB19ED /* Pods-Guru Food.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Guru Food/Info.plist";
+				INFOPLIST_FILE = "Guru Food/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,16 +694,17 @@
 		};
 		B67A5D442A110014009005CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6B7ECB78D8B0018D3B6824 /* Pods-Guru Food.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Guru Food/Info.plist";
+				INFOPLIST_FILE = "Guru Food/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,6 +722,7 @@
 		};
 		B67A5D462A110014009005CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291FA92FCA7EE8D7568C75EA /* Pods-Guru FoodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +742,7 @@
 		};
 		B67A5D472A110014009005CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2149F4CEEE808B73E30A0B5 /* Pods-Guru FoodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +762,7 @@
 		};
 		B67A5D492A110014009005CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D7D95711EF7DCCCD0EBA5B /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +780,7 @@
 		};
 		B67A5D4A2A110014009005CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802682B569E1D8C82D25B7B6 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
