@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B67A5D192A110010009005CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D182A110010009005CD /* AppDelegate.swift */; };
+		B67A5D1B2A110010009005CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1A2A110010009005CD /* SceneDelegate.swift */; };
+		B67A5D1D2A110010009005CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1C2A110010009005CD /* ViewController.swift */; };
+		B67A5D202A110010009005CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D1E2A110010009005CD /* Main.storyboard */; };
+		B67A5D232A110010009005CD /* Guru_Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */; };
+		B67A5D252A110013009005CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D242A110013009005CD /* Assets.xcassets */; };
+		B67A5D282A110013009005CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D262A110013009005CD /* LaunchScreen.storyboard */; };
+		B67A5D332A110014009005CD /* Guru_FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D322A110014009005CD /* Guru_FoodTests.swift */; };
+		B67A5D3D2A110014009005CD /* Guru_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */; };
+		B67A5D3F2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B67A5D2F2A110014009005CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67A5D0D2A110010009005CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67A5D142A110010009005CD;
+			remoteInfo = "Guru Food";
+		};
+		B67A5D392A110014009005CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B67A5D0D2A110010009005CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67A5D142A110010009005CD;
+			remoteInfo = "Guru Food";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B67A5D152A110010009005CD /* Guru Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guru Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67A5D182A110010009005CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B67A5D1A2A110010009005CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B67A5D1C2A110010009005CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B67A5D1F2A110010009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B67A5D222A110010009005CD /* Guru_Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guru_Food.xcdatamodel; sourceTree = "<group>"; };
+		B67A5D242A110013009005CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B67A5D272A110013009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B67A5D292A110013009005CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67A5D2E2A110014009005CD /* Guru FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guru FoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67A5D322A110014009005CD /* Guru_FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodTests.swift; sourceTree = "<group>"; };
+		B67A5D382A110014009005CD /* Guru FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guru FoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITests.swift; sourceTree = "<group>"; };
+		B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B67A5D122A110010009005CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D2B2A110014009005CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D352A110014009005CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B67A5D0C2A110010009005CD = {
+			isa = PBXGroup;
+			children = (
+				B67A5D172A110010009005CD /* Guru Food */,
+				B67A5D312A110014009005CD /* Guru FoodTests */,
+				B67A5D3B2A110014009005CD /* Guru FoodUITests */,
+				B67A5D162A110010009005CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B67A5D162A110010009005CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D152A110010009005CD /* Guru Food.app */,
+				B67A5D2E2A110014009005CD /* Guru FoodTests.xctest */,
+				B67A5D382A110014009005CD /* Guru FoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B67A5D172A110010009005CD /* Guru Food */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D182A110010009005CD /* AppDelegate.swift */,
+				B67A5D1A2A110010009005CD /* SceneDelegate.swift */,
+				B67A5D1C2A110010009005CD /* ViewController.swift */,
+				B67A5D1E2A110010009005CD /* Main.storyboard */,
+				B67A5D242A110013009005CD /* Assets.xcassets */,
+				B67A5D262A110013009005CD /* LaunchScreen.storyboard */,
+				B67A5D292A110013009005CD /* Info.plist */,
+				B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */,
+			);
+			path = "Guru Food";
+			sourceTree = "<group>";
+		};
+		B67A5D312A110014009005CD /* Guru FoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D322A110014009005CD /* Guru_FoodTests.swift */,
+			);
+			path = "Guru FoodTests";
+			sourceTree = "<group>";
+		};
+		B67A5D3B2A110014009005CD /* Guru FoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */,
+				B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */,
+			);
+			path = "Guru FoodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B67A5D142A110010009005CD /* Guru Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67A5D422A110014009005CD /* Build configuration list for PBXNativeTarget "Guru Food" */;
+			buildPhases = (
+				B67A5D112A110010009005CD /* Sources */,
+				B67A5D122A110010009005CD /* Frameworks */,
+				B67A5D132A110010009005CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guru Food";
+			productName = "Guru Food";
+			productReference = B67A5D152A110010009005CD /* Guru Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B67A5D2D2A110014009005CD /* Guru FoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67A5D452A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodTests" */;
+			buildPhases = (
+				B67A5D2A2A110014009005CD /* Sources */,
+				B67A5D2B2A110014009005CD /* Frameworks */,
+				B67A5D2C2A110014009005CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67A5D302A110014009005CD /* PBXTargetDependency */,
+			);
+			name = "Guru FoodTests";
+			productName = "Guru FoodTests";
+			productReference = B67A5D2E2A110014009005CD /* Guru FoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B67A5D372A110014009005CD /* Guru FoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B67A5D482A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodUITests" */;
+			buildPhases = (
+				B67A5D342A110014009005CD /* Sources */,
+				B67A5D352A110014009005CD /* Frameworks */,
+				B67A5D362A110014009005CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B67A5D3A2A110014009005CD /* PBXTargetDependency */,
+			);
+			name = "Guru FoodUITests";
+			productName = "Guru FoodUITests";
+			productReference = B67A5D382A110014009005CD /* Guru FoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B67A5D0D2A110010009005CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B67A5D142A110010009005CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B67A5D2D2A110014009005CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B67A5D142A110010009005CD;
+					};
+					B67A5D372A110014009005CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B67A5D142A110010009005CD;
+					};
+				};
+			};
+			buildConfigurationList = B67A5D102A110010009005CD /* Build configuration list for PBXProject "Guru Food" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B67A5D0C2A110010009005CD;
+			productRefGroup = B67A5D162A110010009005CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67A5D142A110010009005CD /* Guru Food */,
+				B67A5D2D2A110014009005CD /* Guru FoodTests */,
+				B67A5D372A110014009005CD /* Guru FoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B67A5D132A110010009005CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67A5D282A110013009005CD /* LaunchScreen.storyboard in Resources */,
+				B67A5D252A110013009005CD /* Assets.xcassets in Resources */,
+				B67A5D202A110010009005CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D2C2A110014009005CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D362A110014009005CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B67A5D112A110010009005CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67A5D232A110010009005CD /* Guru_Food.xcdatamodeld in Sources */,
+				B67A5D1D2A110010009005CD /* ViewController.swift in Sources */,
+				B67A5D192A110010009005CD /* AppDelegate.swift in Sources */,
+				B67A5D1B2A110010009005CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D2A2A110014009005CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67A5D332A110014009005CD /* Guru_FoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B67A5D342A110014009005CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67A5D3D2A110014009005CD /* Guru_FoodUITests.swift in Sources */,
+				B67A5D3F2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B67A5D302A110014009005CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B67A5D142A110010009005CD /* Guru Food */;
+			targetProxy = B67A5D2F2A110014009005CD /* PBXContainerItemProxy */;
+		};
+		B67A5D3A2A110014009005CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B67A5D142A110010009005CD /* Guru Food */;
+			targetProxy = B67A5D392A110014009005CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B67A5D1E2A110010009005CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67A5D1F2A110010009005CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B67A5D262A110013009005CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B67A5D272A110013009005CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B67A5D402A110014009005CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B67A5D412A110014009005CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B67A5D432A110014009005CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guru Food/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B67A5D442A110014009005CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guru Food/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B67A5D462A110014009005CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guru Food.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guru Food";
+			};
+			name = Debug;
+		};
+		B67A5D472A110014009005CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guru Food.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guru Food";
+			};
+			name = Release;
+		};
+		B67A5D492A110014009005CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guru Food";
+			};
+			name = Debug;
+		};
+		B67A5D4A2A110014009005CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sandra.practice.eg.Guru-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guru Food";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B67A5D102A110010009005CD /* Build configuration list for PBXProject "Guru Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67A5D402A110014009005CD /* Debug */,
+				B67A5D412A110014009005CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67A5D422A110014009005CD /* Build configuration list for PBXNativeTarget "Guru Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67A5D432A110014009005CD /* Debug */,
+				B67A5D442A110014009005CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67A5D452A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67A5D462A110014009005CD /* Debug */,
+				B67A5D472A110014009005CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B67A5D482A110014009005CD /* Build configuration list for PBXNativeTarget "Guru FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B67A5D492A110014009005CD /* Debug */,
+				B67A5D4A2A110014009005CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B67A5D222A110010009005CD /* Guru_Food.xcdatamodel */,
+			);
+			currentVersion = B67A5D222A110010009005CD /* Guru_Food.xcdatamodel */;
+			path = Guru_Food.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B67A5D0D2A110010009005CD /* Project object */;
+}
