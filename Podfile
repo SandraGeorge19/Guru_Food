@@ -6,8 +6,8 @@ target 'Guru Food' do
   use_frameworks!
 
   # Pods for Guru Food
-  pod 'Swinject'
-  pod 'SwinjectStoryboard'
+  pod 'Swinject', '2.7.1'
+  pod 'SwinjectStoryboard', :git => 'https://github.com/Swinject/SwinjectStoryboard.git', :branch => 'master'
 
   target 'Guru FoodTests' do
     inherit! :search_paths

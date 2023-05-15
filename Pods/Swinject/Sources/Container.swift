@@ -4,7 +4,7 @@
 
 import Foundation
 
-/// The ``Container`` class represents a dependency injection container, which stores registrations of services
+/// The `Container` class represents a dependency injection container, which stores registrations of services
 /// and retrieves registered services with dependencies injected.
 ///
 /// **Example to register:**
@@ -25,28 +25,25 @@ public final class Container {
     private var resolutionDepth = 0
     private let debugHelper: DebugHelper
     private let defaultObjectScope: ObjectScope
-    private let synchronized: Bool
     internal var currentObjectGraph: GraphIdentifier?
-    internal let lock: RecursiveLock // Used by SynchronizedResolver.
+    internal let lock: SpinLock // Used by SynchronizedResolver.
     internal var behaviors = [Behavior]()
 
     internal init(
         parent: Container? = nil,
         debugHelper: DebugHelper,
-        defaultObjectScope: ObjectScope = .graph,
-        synchronized: Bool = false
+        defaultObjectScope: ObjectScope = .graph
     ) {
         self.parent = parent
         self.debugHelper = debugHelper
-        lock = parent.map { $0.lock } ?? RecursiveLock()
+        lock = parent.map { $0.lock } ?? SpinLock()
         self.defaultObjectScope = defaultObjectScope
-        self.synchronized = synchronized
     }
 
-    /// Instantiates a ``Container``
+    /// Instantiates a `Container`
     ///
     /// - Parameters
-    ///     - parent: The optional parent ``Container``.
+    ///     - parent: The optional parent `Container`.
     ///     - defaultObjectScope: Default object scope (graph if no scope is injected)
     ///     - behaviors: List of behaviors to be added to the container
     ///     - registeringClosure: The closure registering services to the new container instance.
@@ -104,11 +101,11 @@ public final class Container {
     ///   - name:        A registration name, which is used to differentiate from other registrations
     ///                  that have the same service and factory types.
     ///   - factory:     The closure to specify how the service type is resolved with the dependencies of the type.
-    ///                  It is invoked when the ``Container`` needs to instantiate the instance.
-    ///                  It takes a ``Resolver`` to inject dependencies to the instance,
+    ///                  It is invoked when the `Container` needs to instantiate the instance.
+    ///                  It takes a `Resolver` to inject dependencies to the instance,
     ///                  and returns the instance of the component type for the service.
     ///
-    /// - Returns: A registered ``ServiceEntry`` to configure more settings with method chaining.
+    /// - Returns: A registered `ServiceEntry` to configure more settings with method chaining.
     @discardableResult
     public func register<Service>(
         _ serviceType: Service.Type,
@@ -124,13 +121,13 @@ public final class Container {
     /// - Parameters:
     ///   - serviceType: The service type to register.
     ///   - factory:     The closure to specify how the service type is resolved with the dependencies of the type.
-    ///                  It is invoked when the ``Container`` needs to instantiate the instance.
-    ///                  It takes a ``Resolver`` to inject dependencies to the instance,
+    ///                  It is invoked when the `Container` needs to instantiate the instance.
+    ///                  It takes a `Resolver` to inject dependencies to the instance,
     ///                  and returns the instance of the component type for the service.
     ///   - name:        A registration name.
     ///   - option:      A service key option for an extension/plugin.
     ///
-    /// - Returns: A registered ``ServiceEntry`` to configure more settings with method chaining.
+    /// - Returns: A registered `ServiceEntry` to configure more settings with method chaining.
     @discardableResult
     // swiftlint:disable:next identifier_name
     public func _register<Service, Arguments>(
@@ -155,17 +152,12 @@ public final class Container {
     }
 
     /// Returns a synchronized view of the container for thread safety.
-    /// The returned container is ``Resolver`` type and is not the original container. Continuing to add more
-    /// registrations after calling `synchronize()` will result in different graph scope.
+    /// The returned container is `Resolver` type. Call this method after you finish all service registrations
+    /// to the original container.
     ///
-    /// It is recommended to call this method after you finish all service registrations to the original container.
-    ///
-    /// - Returns: A synchronized container as ``Resolver``.
+    /// - Returns: A synchronized container as `Resolver`.
     public func synchronize() -> Resolver {
-        return Container(parent: self,
-                         debugHelper: debugHelper,
-                         defaultObjectScope: defaultObjectScope,
-                         synchronized: true)
+        return SynchronizedResolver(container: self)
     }
 
     /// Adds behavior to the container. `Behavior.container(_:didRegisterService:withName:)` will be invoked for
@@ -177,25 +169,6 @@ public final class Container {
         behaviors.append(behavior)
     }
 
-    /// Check if a `Service` of a given type and name has already been registered.
-    ///
-    /// - Parameters:
-    ///   - serviceType: The service type to compare.
-    ///   - name:        A registration name, which is used to differentiate from other registrations
-    ///                  that have the same service and factory types.
-    ///
-    /// - Returns: A  `Bool`  which represents whether or not the `Service` has been registered.
-    public func hasAnyRegistration<Service>(
-        of serviceType: Service.Type,
-        name: String? = nil
-    ) -> Bool {
-        getRegistrations().contains { key, _ in
-            key.serviceType == serviceType && key.name == name
-        }
-    }
-
-    /// Restores the object graph to match the given identifier.
-    /// Not synchronized, use lock to edit safely.
     internal func restoreObjectGraph(_ identifier: GraphIdentifier) {
         currentObjectGraph = identifier
     }
@@ -244,19 +217,7 @@ extension Container: _Resolver {
         )
 
         if let entry = getEntry(for: key) {
-            let factory = { [weak self] (graphIdentifier: GraphIdentifier?) -> Any? in
-                let action = { [weak self] () -> Any? in
-                    if let graphIdentifier = graphIdentifier {
-                        self?.restoreObjectGraph(graphIdentifier)
-                    }
-                    return self?.resolve(entry: entry, invoker: invoker) as Any?
-                }
-                if self?.synchronized ?? true {
-                    return self?.lock.sync(action: action)
-                } else {
-                    return action()
-                }
-            }
+            let factory = { [weak self] in self?.resolve(entry: entry, invoker: invoker) as Any? }
             return wrapper.init(inContainer: self, withInstanceFactory: factory) as? Wrapper
         } else {
             return wrapper.init(inContainer: self, withInstanceFactory: nil) as? Wrapper
@@ -305,7 +266,7 @@ extension Container: Resolver {
     /// - Parameter serviceType: The service type to resolve.
     ///
     /// - Returns: The resolved service type instance, or nil if no registration for the service type
-    ///            is found in the ``Container``.
+    ///            is found in the `Container`.
     public func resolve<Service>(_ serviceType: Service.Type) -> Service? {
         return resolve(serviceType, name: nil)
     }
@@ -317,7 +278,7 @@ extension Container: Resolver {
     ///   - name:        The registration name.
     ///
     /// - Returns: The resolved service type instance, or nil if no registration for the service type and name
-    ///            is found in the ``Container``.
+    ///            is found in the `Container`.
     public func resolve<Service>(_: Service.Type, name: String?) -> Service? {
         return _resolve(name: name) { (factory: (Resolver) -> Any) in factory(self) }
     }
@@ -332,43 +293,32 @@ extension Container: Resolver {
 
     fileprivate func resolve<Service, Factory>(
         entry: ServiceEntryProtocol,
-        invoker: @escaping (Factory) -> Any
+        invoker: (Factory) -> Any
     ) -> Service? {
-        // No need to use weak self since the resolution will be executed before
-        // this function exits.
-        let resolution: () -> Service? = { [self] in
-            self.incrementResolutionDepth()
-            defer { self.decrementResolutionDepth() }
+        incrementResolutionDepth()
+        defer { decrementResolutionDepth() }
 
-            guard let currentObjectGraph = self.currentObjectGraph else {
-                fatalError("If accessing container from multiple threads, make sure to use a synchronized resolver.")
-            }
-
-            if let persistedInstance = self.persistedInstance(Service.self, from: entry, in: currentObjectGraph) {
-                return persistedInstance
-            }
-
-            let resolvedInstance = invoker(entry.factory as! Factory)
-            if let persistedInstance = self.persistedInstance(Service.self, from: entry, in: currentObjectGraph) {
-                // An instance for the key might be added by the factory invocation.
-                return persistedInstance
-            }
-            entry.storage.setInstance(resolvedInstance as Any, inGraph: currentObjectGraph)
-
-            if let completed = entry.initCompleted as? (Resolver, Any) -> Void,
-                let resolvedInstance = resolvedInstance as? Service {
-                completed(self, resolvedInstance)
-            }
-
-            return resolvedInstance as? Service
+        guard let currentObjectGraph = currentObjectGraph else {
+            fatalError("If accessing container from multiple threads, make sure to use a synchronized resolver.")
         }
-        if synchronized {
-            return lock.sync {
-                return resolution()
-            }
-        } else {
-            return resolution()
+
+        if let persistedInstance = persistedInstance(Service.self, from: entry, in: currentObjectGraph) {
+            return persistedInstance
         }
+
+        let resolvedInstance = invoker(entry.factory as! Factory)
+        if let persistedInstance = persistedInstance(Service.self, from: entry, in: currentObjectGraph) {
+            // An instance for the key might be added by the factory invocation.
+            return persistedInstance
+        }
+        entry.storage.setInstance(resolvedInstance as Any, inGraph: currentObjectGraph)
+
+        if let completed = entry.initCompleted as? (Resolver, Any) -> Void,
+            let resolvedInstance = resolvedInstance as? Service {
+            completed(self, resolvedInstance)
+        }
+
+        return resolvedInstance as? Service
     }
 
     private func persistedInstance<Service>(
