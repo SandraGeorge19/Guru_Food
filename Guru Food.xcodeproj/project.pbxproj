@@ -294,7 +294,6 @@
 			children = (
 				B67A5D562A111E33009005CD /* RecipeDetails */,
 				B67A5D552A111E10009005CD /* Favourites */,
-				B67A5D542A111E03009005CD /* Home */,
 				B67A5D532A111DF8009005CD /* WelcomeScreen */,
 			);
 			path = Modules;
@@ -323,13 +322,6 @@
 				B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */,
 			);
 			path = WelcomeScreen;
-			sourceTree = "<group>";
-		};
-		B67A5D542A111E03009005CD /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		B67A5D552A111E10009005CD /* Favourites */ = {
