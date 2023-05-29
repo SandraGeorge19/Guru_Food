@@ -7,191 +7,234 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		011AA9625D8E74104335867B34F47A28 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55905A4120C3F1EBCA43ADFBA66A41D /* Container+SwinjectStoryboard.swift */; };
-		017ABA819351778E519D886B77319A1F /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137BB19C00F6AFED09A57B83BD32345 /* Container.Logging.swift */; };
-		030285E3C0F9E1C20E19357EB3082D01 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AADA49707FC5921A35098584769793 /* SwinjectStoryboard.swift */; };
-		058D30C48DC2A2DEB4EC589C064F8860 /* SwinjectStoryboard+SetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD985AF1E4E981AC1DE64A3728E9D7F /* SwinjectStoryboard+SetUp.m */; };
+		011AA9625D8E74104335867B34F47A28 /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6465EF2FB78E62EA76C51299256503 /* Container+SwinjectStoryboard.swift */; };
+		017ABA819351778E519D886B77319A1F /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0705B6EABEB9FB1AE2858FB97FE8DB50 /* Container.Logging.swift */; };
+		030285E3C0F9E1C20E19357EB3082D01 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA9FB3517F39D75644DDC0FFD11FA5 /* SwinjectStoryboard.swift */; };
+		058D30C48DC2A2DEB4EC589C064F8860 /* SwinjectStoryboard+SetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4E992096909361542F37F02EAEEB3 /* SwinjectStoryboard+SetUp.m */; };
 		10B8CCB8BD9800927789AEB2D1079ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		11660D3605C1F85D57C0EAF4D62772A4 /* Pods-Guru Food-Guru FoodUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83332DCB17F80F39B72AD4D65B01DC57 /* Pods-Guru Food-Guru FoodUITests-dummy.m */; };
-		180A506E1ACE59ADB56B89A7FCBBDA72 /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC91E5AFC524812C9D3E5974107E54A /* Container.Arguments.swift */; };
-		18C34A50A7525157150D23E460B62D7F /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76704385C8416734D065A39031F6A88 /* Resolver.swift */; };
-		19F3847810A54C918EF7A7DE5E065C7D /* _SwinjectStoryboardBase(iOS-tvOS).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE03D7CA272567BE140B7A0C252D30 /* _SwinjectStoryboardBase(iOS-tvOS).swift */; };
-		28A4C74D9D98F597FF4A710552BBC4A2 /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A16C88E77D1D6B9188FC39241430D9 /* Swinject-dummy.m */; };
-		2934A038E29FFC96AFD18CC732E40C33 /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8335880E90D9377766B8FE19FCE09 /* ServiceKey.swift */; };
-		296E8188D1778F05BA90764ECC5F10B7 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB6EC7C82CA6E1F93608187F42E27F /* ObjectScope.swift */; };
-		2D29C76470616DF85DD1A312FB39E40D /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D766F8591F87F2EBA08F2C2DADD0F83 /* ObjectScope.Standard.swift */; };
-		3333BB1C7B8744F4D5D68BAB5623F5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		180A506E1ACE59ADB56B89A7FCBBDA72 /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66D357429B06AF0206469392E42E477 /* Container.Arguments.swift */; };
+		18C34A50A7525157150D23E460B62D7F /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD312CC319D0AD6F1F0F24EFA0816C8B /* Resolver.swift */; };
+		19F3847810A54C918EF7A7DE5E065C7D /* _SwinjectStoryboardBase(iOS-tvOS).swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A18D33D5C432CD3B49026577A4D670 /* _SwinjectStoryboardBase(iOS-tvOS).swift */; };
+		1EEF68CF4F49C230CC89DB838CFA3669 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D887AC7A730FD34E7147ED84CD806EE /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		253201FFCEA478C99A3970C5E3722B74 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B53F3FEEE845B0700BA30413843E45A /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A4C74D9D98F597FF4A710552BBC4A2 /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2F2820997EF93012B0002DA9FAE30 /* Swinject-dummy.m */; };
+		2934A038E29FFC96AFD18CC732E40C33 /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3271C22F8E6315B301F9D3C4F31C523B /* ServiceKey.swift */; };
+		296E8188D1778F05BA90764ECC5F10B7 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D24D52D01518DC65C2C209D2DA6C0 /* ObjectScope.swift */; };
+		29E4C616C7BEA9EE4CDE5AAAA86FA2A7 /* Pods-Guru Food-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6E68F6EF453CB0B0091E53B5E3CD94 /* Pods-Guru Food-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D29C76470616DF85DD1A312FB39E40D /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7955CAC6422C9FB3C24470111AAE96C6 /* ObjectScope.Standard.swift */; };
 		348AA75B2D650415C2EF6BFBFBD68EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3BA15B69EBE236EE9D68AEB462AB36D6 /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0DAD1BEC9A66F5A88B821ED8E6E869 /* SynchronizedResolver.Arguments.swift */; };
-		3FC02B8E1F10E161F3ACEDC23E8D3D7E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E5EE3EC39F12A23B3B110604C7B979 /* Box.swift */; };
-		4FABBE9B8E49D12CAEE918CBF6B6424C /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E8485BA2B22FD6FCF8541B1A32F18C /* InstanceStorage.swift */; };
-		50D8FDFACCCC86734BAD3497379AD047 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A77282D4D07699EE22318E088E6B4 /* Assembly.swift */; };
-		51A0F1DE05ED849029E4B3A0F72BCE2A /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EACAC2AB12D08CC501899FEF35A1D911 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523A3A677CC4A8E0F7B1F0FD987113C1 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497A49AC3794175C5E229CF35688D72 /* Assembler.swift */; };
-		6D12F23258C26AC473283D6AE8ED080B /* InstanceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27790B8AF2F698FFF95B744C99C6559 /* InstanceWrapper.swift */; };
-		6D9128F05B46BA3BF6EEFF077A97D325 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E79E159A758CAA66E50BC5D70F16E40 /* _Resolver.swift */; };
-		6E76080A6A14ECBF83F397BB9576380C /* Pods-Guru Food-Guru FoodUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8E8AAA573CBF2C3D46C36A534B06C0 /* Pods-Guru Food-Guru FoodUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7567557F204208D14E0E3EE2ED8793B0 /* GraphIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C578991D79518DEC2645F29D83C38C0 /* GraphIdentifier.swift */; };
-		764FB8B37A653A206BB4C68A163B631E /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69295B4938AC30801C878162982A0F /* ViewController+Swinject.swift */; };
-		7890C4C56425B2A859A1D457F9D56872 /* SwinjectStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A7833B0EC8A1084DE49CAA693708B0 /* SwinjectStoryboardProtocol.swift */; };
-		8435267CF53983688AE07DD7C2D259D4 /* Container.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D512A6B9B79EB9C7E7B6BF85E4E4F6 /* Container.TypeForwarding.swift */; };
+		3BA15B69EBE236EE9D68AEB462AB36D6 /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C1552174E6CA349956890FA2CC85F7 /* SynchronizedResolver.Arguments.swift */; };
+		3FC02B8E1F10E161F3ACEDC23E8D3D7E /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C29F9A9A47AA3F2912B904D6BD1B9 /* Box.swift */; };
+		4A3E057801126F54459EF3273AF88D8A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A65FA3E1A9C0B09A54B54209272B850D /* NSLayoutConstraint+PureLayout.m */; };
+		4B6DFFA937E35E23F45DC619C1EAB573 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BEDD6AED68ADF057BF983270351DF3 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FABBE9B8E49D12CAEE918CBF6B6424C /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA3FE61560D4B2B06D339130539F4 /* InstanceStorage.swift */; };
+		50D8FDFACCCC86734BAD3497379AD047 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E13DA416D355C61B4570D0972716F7 /* Assembly.swift */; };
+		51A0F1DE05ED849029E4B3A0F72BCE2A /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7ED6D2DBBF6B0984E54953ADCB4C52 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523A3A677CC4A8E0F7B1F0FD987113C1 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7825EBF684703DF817D92092137A0D /* Assembler.swift */; };
+		5517A45785F9AC49C6BAA2E5AFADA636 /* Pods-Guru Food-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CBAC0CBF7CC4B058254FE423557A48 /* Pods-Guru Food-dummy.m */; };
+		5D40BF8AC3902ACF8F3C2DA4F805ED05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67574E0AAA9E58393D1C2E1B4C5E1707 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44E75CF05027A1CBD0DAAC931EB455C /* PureLayout-dummy.m */; };
+		6D12F23258C26AC473283D6AE8ED080B /* InstanceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E8602D460EF0233CBBED403EA246B6 /* InstanceWrapper.swift */; };
+		6D9128F05B46BA3BF6EEFF077A97D325 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206D7E939D2378DCFA97D17D9759C518 /* _Resolver.swift */; };
+		7567557F204208D14E0E3EE2ED8793B0 /* GraphIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E431BA48B70E3AC4A71631F37D019D /* GraphIdentifier.swift */; };
+		764FB8B37A653A206BB4C68A163B631E /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56450267E327807A4B9F01E9D9C7678 /* ViewController+Swinject.swift */; };
+		7890C4C56425B2A859A1D457F9D56872 /* SwinjectStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB4752D103092F6797694D52ED702A /* SwinjectStoryboardProtocol.swift */; };
+		8435267CF53983688AE07DD7C2D259D4 /* Container.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E05A9AED2DFA631E124343378EEF89 /* Container.TypeForwarding.swift */; };
+		87BBBAF1F66B27E2153592C17D22499B /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 177BE74C8EEAECE49E51F32465CEF3CD /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B30C24DB1CF6DDDAB2E39D576A66953 /* Pods-Guru FoodTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B78302B68275B54B9B332EDFE97BB6 /* Pods-Guru FoodTests-dummy.m */; };
-		8D668566F7ADE83D955D129ADB6C94E3 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F225BDC34B407BFB32F4761F16CD6A /* ServiceEntry.swift */; };
-		90BCFFF4845D1F4E511A85F8104B300A /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7D4F6D90D3DE9E830B9FDA90E42F3 /* Behavior.swift */; };
-		9548CDA8FA32297AE64E7B3582933F84 /* Pods-Guru Food-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CBAC0CBF7CC4B058254FE423557A48 /* Pods-Guru Food-dummy.m */; };
-		A29013FC7A9DC4F422917584F5A1BA74 /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F84FC85D9E9FAA4564FDE8A1DD3633C /* RegistrationNameAssociatable.swift */; };
-		A744CA64EBB12821264DB6191C95B4F3 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D94C1476DF1E40B8932EE46A709618 /* SynchronizedResolver.swift */; };
-		AF63A3B3F7DA14A64FF1F9044C21DC3D /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE43CBB20D119F0EBD974AF34E286D81 /* DebugHelper.swift */; };
-		B1ACA3AE9857E3FEBBC5212BECBCBA3F /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D339F9449116932ED039F2CE1B16B /* InjectionVerifiable.swift */; };
-		B55C9350B4643076A92B151850501C34 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B797E4B491383A75D95D4269E2D66230 /* UnavailableItems.swift */; };
-		B633EBD0F17BEF9D807375CC96D3D9F7 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C614284D51E6116A3815CC1B93D68 /* UnavailableItems.swift */; };
-		B74F1E7EFB704B24F49D47C9425D1C24 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2E064E9EAFE7C6BBEAEFD4A2E4AA0 /* Container.swift */; };
-		B8CC42C9DA8210554A61D1BE6A2DBAB8 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E10E41BBC8502642409200CBCAFD3F36 /* SwinjectStoryboard-dummy.m */; };
+		8CDC73E1BC5CC030BC31CB816667B063 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 413FD58CB8555DC397196DB40F962A32 /* NSArray+PureLayout.m */; };
+		8D668566F7ADE83D955D129ADB6C94E3 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E9A4C319346D051FBB78E0BAAA0319 /* ServiceEntry.swift */; };
+		8DD3C94718B2D4C1445D2F8FFCCB3F6E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC77BD47191F4A2BC26B7783E81241 /* ALView+PureLayout.m */; };
+		90BCFFF4845D1F4E511A85F8104B300A /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D8756602BE91590A50D839967B0F6 /* Behavior.swift */; };
+		A29013FC7A9DC4F422917584F5A1BA74 /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF3657DB8403F05149682C44ADD7E6 /* RegistrationNameAssociatable.swift */; };
+		A744CA64EBB12821264DB6191C95B4F3 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AB8D38E90FFAB2A91CCB3136158E9C /* SynchronizedResolver.swift */; };
+		AF63A3B3F7DA14A64FF1F9044C21DC3D /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E7E31F8623B256B7DFD2677301E780 /* DebugHelper.swift */; };
+		B1ACA3AE9857E3FEBBC5212BECBCBA3F /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EAD7267B7F59E16C290B33EA73132 /* InjectionVerifiable.swift */; };
+		B55C9350B4643076A92B151850501C34 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BDF2C73E01279C556589D1F2DEC8C2 /* UnavailableItems.swift */; };
+		B633EBD0F17BEF9D807375CC96D3D9F7 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5213AC0057938135B596FCE7E5BCC /* UnavailableItems.swift */; };
+		B74F1E7EFB704B24F49D47C9425D1C24 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C01240314558D7D9BFEDD15166E9A3 /* Container.swift */; };
+		B7775391C9C7FB76EC7616CA37E04B7B /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFC4E81C2FC7B37AFBB536341E05DB8 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CC42C9DA8210554A61D1BE6A2DBAB8 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D1422692A1BE26DBFE39AC6FA24B92 /* SwinjectStoryboard-dummy.m */; };
+		BE62A61E5452001B598160DEE5C44BB7 /* Pods-Guru Food-Guru FoodUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83332DCB17F80F39B72AD4D65B01DC57 /* Pods-Guru Food-Guru FoodUITests-dummy.m */; };
+		C48883845D739B5D005B90914BD32632 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7F2CA915D15E109CC42F152ECF618D /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8848A1BCDF01ADDC298FD5E7F820154 /* Pods-Guru FoodTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E34421C77619E14E10AC6F55E562C70 /* Pods-Guru FoodTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC19640357D6CB1EEA25272C1320EAE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CED6848DB1753A3450BB187C0B61DE22 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A977AD2784271E906B78EE8C3779B /* DispatchQueue+Once.swift */; };
-		D36F4A2D482E588B4B964A72330132B3 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA2B8B2CE48A122BF795101E7FE575 /* SpinLock.swift */; };
-		D51903FF2C6E201DC027DB7749A70562 /* UIStoryboard+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0352E0792850A994899C4BDF170381B /* UIStoryboard+Swizzling.swift */; };
-		DD3B08045CC5059A0EE5898A5F1E13F3 /* Pods-Guru Food-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6E68F6EF453CB0B0091E53B5E3CD94 /* Pods-Guru Food-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E15C977F2B755B985B0B33960571CF93 /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5D05447FBE295FFA4557D57192C80 /* FunctionType.swift */; };
-		E65CEE9ED2E205EACD0E3B9B0690C462 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8F83BEAA78FBCAB7383767AD6949E7 /* SwinjectStoryboard+StoryboardReference.swift */; };
-		EA8D74093B82AB4B065DEFFC00B99739 /* ServiceEntry.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E49E2B363409FB3657EC95B76201A /* ServiceEntry.TypeForwarding.swift */; };
-		EAF298BC9474DD646F03F0D2033781B9 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = F303CF1C93055DAE597F1F494B8E2AF7 /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAD5D8891EC11650396D90055C6B532B /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA7EC25C3989CCEBA321FB555D64C24 /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C91790192E090C1FA15F0BBBFB0ED231 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2276E56116ECB9985BB91F6928EA8F /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCECC9754A928C037AABF3E7C46BD1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE13C5B30ABBEF978492E901D56270A9 /* Pods-Guru Food-Guru FoodUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8E8AAA573CBF2C3D46C36A534B06C0 /* Pods-Guru Food-Guru FoodUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED6848DB1753A3450BB187C0B61DE22 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44099C46BE57D6D64D813C1A79D35DDE /* DispatchQueue+Once.swift */; };
+		D36F4A2D482E588B4B964A72330132B3 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807AAED5FF0C022A1D8CFCF713C9B94 /* SpinLock.swift */; };
+		D51903FF2C6E201DC027DB7749A70562 /* UIStoryboard+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F5CE58D632BBA61C729DF818890C95 /* UIStoryboard+Swizzling.swift */; };
+		E099615F3729D4459B41F1AA2403775A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E15C977F2B755B985B0B33960571CF93 /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE50144D94323397E9E2A1164E18191F /* FunctionType.swift */; };
+		E65CEE9ED2E205EACD0E3B9B0690C462 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800934C231FB2EBA7A5D490AB45B52F1 /* SwinjectStoryboard+StoryboardReference.swift */; };
+		EA8D74093B82AB4B065DEFFC00B99739 /* ServiceEntry.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA299BF0AE7AE0950369FE8422E5457 /* ServiceEntry.TypeForwarding.swift */; };
+		EAF298BC9474DD646F03F0D2033781B9 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBC1D9235FF423ADA34DE422BB6D6F4 /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD5D8891EC11650396D90055C6B532B /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2B095720CEDE2C3DDE63A2FBCED740 /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFC664175C2154DC19054C3AEB1D9B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FFE2D5DB808100392EF508D3267CED6A /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4A552AF65A58F435221A4A0CA65C1 /* SwinjectStoryboardOption.swift */; };
+		FFE2D5DB808100392EF508D3267CED6A /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49748B2901F6685FB4F364E393C4AE96 /* SwinjectStoryboardOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14B415C7D485531CE81A738C93C98A56 /* PBXContainerItemProxy */ = {
+		15D5A0E2119836D165BCB00B9F18A1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		2EE63D11996CE067650FC9B4268C3271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
+			remoteInfo = SwinjectStoryboard;
+		};
+		422ABA2B460E6269A69CD48290EB4586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F5CDD6235E25837519792853B145A1;
+			remoteInfo = PureLayout;
+		};
+		45CE28D9F133D71E7CC0F7453317E63B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 57F099B4C16D0257DA25E321776E6DBD;
 			remoteInfo = "Pods-Guru Food";
 		};
-		6F5C48FBCFCD5995DDAFB6FFA193A957 /* PBXContainerItemProxy */ = {
+		4C55CA5108D9C1B10B532AD2482E8791 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
 			remoteInfo = SwinjectStoryboard;
 		};
-		ABADB152D92F9AE33657A2788E54B9F1 /* PBXContainerItemProxy */ = {
+		B7105C36AECEC3510C0CE94992D85921 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
 			remoteInfo = Swinject;
 		};
-		AC7B980633F7A403E45C3EE076651AC1 /* PBXContainerItemProxy */ = {
+		DEBD58FEEA0721C4209DA4FDAFD803C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
 			remoteInfo = Swinject;
 		};
-		AF32424D3EB88544AD12F179379C766C /* PBXContainerItemProxy */ = {
+		FC7D29F672FB084A0FF7E828271A441A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
 			remoteInfo = Swinject;
-		};
-		F9FD27C0F764188E41F3752EADF6E760 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
-			remoteInfo = SwinjectStoryboard;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0497A49AC3794175C5E229CF35688D72 /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
-		08F225BDC34B407BFB32F4761F16CD6A /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
-		0B9165C8C28C28EF07A4EEC61E0C9F9C /* Swinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.release.xcconfig; sourceTree = "<group>"; };
-		11D512A6B9B79EB9C7E7B6BF85E4E4F6 /* Container.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.TypeForwarding.swift; path = Sources/Container.TypeForwarding.swift; sourceTree = "<group>"; };
+		03D5213AC0057938135B596FCE7E5BCC /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		06E9A4C319346D051FBB78E0BAAA0319 /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
+		0705B6EABEB9FB1AE2858FB97FE8DB50 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
+		0CE66E34D5E9807EBEE344490E05DB4F /* SwinjectStoryboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwinjectStoryboard-Info.plist"; sourceTree = "<group>"; };
+		14C01240314558D7D9BFEDD15166E9A3 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
+		17065FE94F7C94BE01CC4FED49094A2A /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
+		177BE74C8EEAECE49E51F32465CEF3CD /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		18F48B75771821A980FABD4C6B8FDF7F /* Swinject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swinject-Info.plist"; sourceTree = "<group>"; };
 		19CBAC0CBF7CC4B058254FE423557A48 /* Pods-Guru Food-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Guru Food-dummy.m"; sourceTree = "<group>"; };
-		1F84FC85D9E9FAA4564FDE8A1DD3633C /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
-		1F8E06A3810A8904A2A69D6ED9A64CEC /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
+		1A4EAD7267B7F59E16C290B33EA73132 /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
 		1FB982CCC6CB1A4CF36B93858AB3A23D /* Pods-Guru FoodTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Guru FoodTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2AA7EC25C3989CCEBA321FB555D64C24 /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
+		206D7E939D2378DCFA97D17D9759C518 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
+		25BDF2C73E01279C556589D1F2DEC8C2 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
 		2B6E68F6EF453CB0B0091E53B5E3CD94 /* Pods-Guru Food-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Guru Food-umbrella.h"; sourceTree = "<group>"; };
 		2D3094FF93FFC842DEE8E2CF3ADA49B0 /* Pods-Guru Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru Food.debug.xcconfig"; sourceTree = "<group>"; };
-		2EFF5736A417F61F756C9143A56A5C82 /* Swinject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swinject-Info.plist"; sourceTree = "<group>"; };
-		3137BB19C00F6AFED09A57B83BD32345 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
+		2EBC1D9235FF423ADA34DE422BB6D6F4 /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
+		3271C22F8E6315B301F9D3C4F31C523B /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
+		330C29F9A9A47AA3F2912B904D6BD1B9 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectStoryboard; path = SwinjectStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4EAE365196C42720B40F4163A48445 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		3C9EEB3804C13C61B2001941693D3E1F /* Pods-Guru Food-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Guru Food-frameworks.sh"; sourceTree = "<group>"; };
-		3D766F8591F87F2EBA08F2C2DADD0F83 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
 		40938720D9ECBB3AA3B01C1806999A36 /* Pods-Guru FoodTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Guru FoodTests"; path = Pods_Guru_FoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413FD58CB8555DC397196DB40F962A32 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		41E13DA416D355C61B4570D0972716F7 /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
+		44099C46BE57D6D64D813C1A79D35DDE /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Once.swift"; path = "Sources/DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		46E431BA48B70E3AC4A71631F37D019D /* GraphIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIdentifier.swift; path = Sources/GraphIdentifier.swift; sourceTree = "<group>"; };
 		47910FFB766D80672DEEB52A32E5E572 /* Pods-Guru Food-Guru FoodUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Guru Food-Guru FoodUITests.modulemap"; sourceTree = "<group>"; };
-		4BD985AF1E4E981AC1DE64A3728E9D7F /* SwinjectStoryboard+SetUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwinjectStoryboard+SetUp.m"; path = "Sources/ObjectiveC/Others/SwinjectStoryboard+SetUp.m"; sourceTree = "<group>"; };
-		4BF7D4F6D90D3DE9E830B9FDA90E42F3 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
-		4E3AC84599548EF8F39A344066E757A1 /* SwinjectStoryboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwinjectStoryboard-Info.plist"; sourceTree = "<group>"; };
-		4EFE03D7CA272567BE140B7A0C252D30 /* _SwinjectStoryboardBase(iOS-tvOS).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_SwinjectStoryboardBase(iOS-tvOS).swift"; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase(iOS-tvOS).swift"; sourceTree = "<group>"; };
-		50A7833B0EC8A1084DE49CAA693708B0 /* SwinjectStoryboardProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardProtocol.swift; path = Sources/SwinjectStoryboardProtocol.swift; sourceTree = "<group>"; };
+		47E8602D460EF0233CBBED403EA246B6 /* InstanceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceWrapper.swift; path = Sources/InstanceWrapper.swift; sourceTree = "<group>"; };
+		49748B2901F6685FB4F364E393C4AE96 /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
+		52AA9FB3517F39D75644DDC0FFD11FA5 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		555A751CA0C9027E7315A322CA337557 /* SwinjectStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.debug.xcconfig; sourceTree = "<group>"; };
+		56E7E31F8623B256B7DFD2677301E780 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
+		57E05A9AED2DFA631E124343378EEF89 /* Container.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.TypeForwarding.swift; path = Sources/Container.TypeForwarding.swift; sourceTree = "<group>"; };
 		596EBE003C274E98E95214296DF8FCF0 /* Pods-Guru FoodTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru FoodTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A9D339F9449116932ED039F2CE1B16B /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
-		619A977AD2784271E906B78EE8C3779B /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Once.swift"; path = "Sources/DispatchQueue+Once.swift"; sourceTree = "<group>"; };
-		63DA2B8B2CE48A122BF795101E7FE575 /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
+		5AAF3657DB8403F05149682C44ADD7E6 /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
+		6082972F947E2A0BA0074F57F0BB2E35 /* PureLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.release.xcconfig; sourceTree = "<group>"; };
+		66BE6F3D8DBAE17CE8980C3C8929662E /* PureLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.debug.xcconfig; sourceTree = "<group>"; };
+		66CC77BD47191F4A2BC26B7783E81241 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		6A2BBA91CE47FF57491F25CD49D6876C /* SwinjectStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.release.xcconfig; sourceTree = "<group>"; };
 		6A443DCC0C244A7D8CEB6FE4273735C0 /* Pods-Guru FoodTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Guru FoodTests.modulemap"; sourceTree = "<group>"; };
-		6B3E49E2B363409FB3657EC95B76201A /* ServiceEntry.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.TypeForwarding.swift; path = Sources/ServiceEntry.TypeForwarding.swift; sourceTree = "<group>"; };
-		6C578991D79518DEC2645F29D83C38C0 /* GraphIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIdentifier.swift; path = Sources/GraphIdentifier.swift; sourceTree = "<group>"; };
+		6E7F2CA915D15E109CC42F152ECF618D /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/include/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		6EC765D3FF2369001AEA47D35EB14C06 /* PureLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureLayout-Info.plist"; sourceTree = "<group>"; };
+		6FC4E992096909361542F37F02EAEEB3 /* SwinjectStoryboard+SetUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwinjectStoryboard+SetUp.m"; path = "Sources/ObjectiveC/Others/SwinjectStoryboard+SetUp.m"; sourceTree = "<group>"; };
 		71E16E543C96ABB1264471B2FB606FC0 /* Pods-Guru Food-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Guru Food-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72AB8D38E90FFAB2A91CCB3136158E9C /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		762A4F46EF9CBFA91E46FCFAACF71315 /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		7955CAC6422C9FB3C24470111AAE96C6 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
 		79FC761F5A7F89001ECCCD6FD202338D /* Pods-Guru Food-Guru FoodUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Guru Food-Guru FoodUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D29231984E3EA97F51B28FC5A7C7CFB /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swinject.modulemap; sourceTree = "<group>"; };
+		7C2276E56116ECB9985BB91F6928EA8F /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		7D887AC7A730FD34E7147ED84CD806EE /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/include/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		7DCB4752D103092F6797694D52ED702A /* SwinjectStoryboardProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardProtocol.swift; path = Sources/SwinjectStoryboardProtocol.swift; sourceTree = "<group>"; };
 		7E34421C77619E14E10AC6F55E562C70 /* Pods-Guru FoodTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Guru FoodTests-umbrella.h"; sourceTree = "<group>"; };
+		800934C231FB2EBA7A5D490AB45B52F1 /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
+		81A18D33D5C432CD3B49026577A4D670 /* _SwinjectStoryboardBase(iOS-tvOS).swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "_SwinjectStoryboardBase(iOS-tvOS).swift"; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase(iOS-tvOS).swift"; sourceTree = "<group>"; };
 		83332DCB17F80F39B72AD4D65B01DC57 /* Pods-Guru Food-Guru FoodUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Guru Food-Guru FoodUITests-dummy.m"; sourceTree = "<group>"; };
-		84AB6EC7C82CA6E1F93608187F42E27F /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
 		859ABA1DB4C5176680AB4C34DE38B622 /* Pods-Guru Food-Guru FoodUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Guru Food-Guru FoodUITests-frameworks.sh"; sourceTree = "<group>"; };
 		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6EF1D4ADE37709A87866879DE71534 /* Pods-Guru Food-Guru FoodUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru Food-Guru FoodUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8DF5D05447FBE295FFA4557D57192C80 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
-		8E79E159A758CAA66E50BC5D70F16E40 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
+		8DF2F2820997EF93012B0002DA9FAE30 /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
 		91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Guru Food"; path = Pods_Guru_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5DFB33AF0CFDB075106685FC1A89B /* Pods-Guru FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		98E5EE3EC39F12A23B3B110604C7B979 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		9C69295B4938AC30801C878162982A0F /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
+		98C1552174E6CA349956890FA2CC85F7 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
+		9B53F3FEEE845B0700BA30413843E45A /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EC91E5AFC524812C9D3E5974107E54A /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
+		9F98CA5D10196128B2F12AFF03323C4F /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		A03B3221B24B7C4C8D6B3D276D42EC1A /* Pods-Guru Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru Food.release.xcconfig"; sourceTree = "<group>"; };
+		A65FA3E1A9C0B09A54B54209272B850D /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		A68D24D52D01518DC65C2C209D2DA6C0 /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
+		A9D1422692A1BE26DBFE39AC6FA24B92 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
+		A9F5CE58D632BBA61C729DF818890C95 /* UIStoryboard+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Swizzling.swift"; path = "Sources/iOS-tvOS/UIStoryboard+Swizzling.swift"; sourceTree = "<group>"; };
+		AA4D8756602BE91590A50D839967B0F6 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		AC2AA3FE61560D4B2B06D339130539F4 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
 		B02F6546098CC3055423A0FA6CA689BC /* Pods-Guru FoodTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru FoodTests-Info.plist"; sourceTree = "<group>"; };
-		B0352E0792850A994899C4BDF170381B /* UIStoryboard+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Swizzling.swift"; path = "Sources/iOS-tvOS/UIStoryboard+Swizzling.swift"; sourceTree = "<group>"; };
-		B27790B8AF2F698FFF95B744C99C6559 /* InstanceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceWrapper.swift; path = Sources/InstanceWrapper.swift; sourceTree = "<group>"; };
-		B3FAE2FA1788ACFEC17F70CD7A3AF447 /* SwinjectStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.release.xcconfig; sourceTree = "<group>"; };
-		B76704385C8416734D065A39031F6A88 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
-		B797E4B491383A75D95D4269E2D66230 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
-		BB468ABFA916E7370F1BD89F9C6F778F /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
+		BAA299BF0AE7AE0950369FE8422E5457 /* ServiceEntry.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.TypeForwarding.swift; path = Sources/ServiceEntry.TypeForwarding.swift; sourceTree = "<group>"; };
 		C145E054C41C294BB8D059AEB521CCA1 /* Pods-Guru Food-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru Food-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2AADA49707FC5921A35098584769793 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
-		C2CA0002DF52165113C7A566FDF60F86 /* SwinjectStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.debug.xcconfig; sourceTree = "<group>"; };
-		C5D94C1476DF1E40B8932EE46A709618 /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
+		C56450267E327807A4B9F01E9D9C7678 /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
 		C7B78302B68275B54B9B332EDFE97BB6 /* Pods-Guru FoodTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Guru FoodTests-dummy.m"; sourceTree = "<group>"; };
+		CBC2BD7F2D5851325506B1C26707F286 /* Swinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.release.xcconfig; sourceTree = "<group>"; };
+		D0BEDD6AED68ADF057BF983270351DF3 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/include/PureLayoutDefines.h; sourceTree = "<group>"; };
 		D468FE61A8C86C4B26A1DED2C27CBA99 /* Pods-Guru Food-Guru FoodUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Guru Food-Guru FoodUITests"; path = Pods_Guru_Food_Guru_FoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58C614284D51E6116A3815CC1B93D68 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		D66D357429B06AF0206469392E42E477 /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
+		D7066610DCA2FAF7A5D06FC2AF68D2BF /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
 		D85DD8EBAC0A553645CF7F344A4D13D9 /* Pods-Guru Food-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru Food-Info.plist"; sourceTree = "<group>"; };
 		D9BB20827A9B1A8FF212B482CB79F79B /* Pods-Guru FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru FoodTests.release.xcconfig"; sourceTree = "<group>"; };
-		D9C2E064E9EAFE7C6BBEAEFD4A2E4AA0 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
-		D9C8335880E90D9377766B8FE19FCE09 /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
-		DE0DAD1BEC9A66F5A88B821ED8E6E869 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
-		E10E41BBC8502642409200CBCAFD3F36 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
-		E3E8485BA2B22FD6FCF8541B1A32F18C /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
-		E9A16C88E77D1D6B9188FC39241430D9 /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
-		EACAC2AB12D08CC501899FEF35A1D911 /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
+		E0A635254002F49AA1B5AAC34DA2DD63 /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
+		E44E75CF05027A1CBD0DAAC931EB455C /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50BE97F9613FD93B9B6A93F6CB56D10 /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swinject.modulemap; sourceTree = "<group>"; };
+		E807AAED5FF0C022A1D8CFCF713C9B94 /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
+		EA2B095720CEDE2C3DDE63A2FBCED740 /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
+		EB7825EBF684703DF817D92092137A0D /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
+		EB7ED6D2DBBF6B0984E54953ADCB4C52 /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
+		EBFC4E81C2FC7B37AFBB536341E05DB8 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/include/PureLayout.h; sourceTree = "<group>"; };
+		EC6465EF2FB78E62EA76C51299256503 /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
 		EE1DA95BE2881EA1D499F82F9973A5BB /* Pods-Guru Food.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Guru Food.modulemap"; sourceTree = "<group>"; };
-		EE5A77282D4D07699EE22318E088E6B4 /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
-		EFF4A552AF65A58F435221A4A0CA65C1 /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
-		F303CF1C93055DAE597F1F494B8E2AF7 /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
-		F5061EB018F5157E774D0446CCC495F9 /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
-		F55905A4120C3F1EBCA43ADFBA66A41D /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
+		EE50144D94323397E9E2A1164E18191F /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
+		EF8D57AA695C3C43733E4891FBA36EFA /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
 		F88C8EA12A2A2C46BAFC663273B0381B /* Pods-Guru Food-Guru FoodUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru Food-Guru FoodUITests-Info.plist"; sourceTree = "<group>"; };
 		F9166C720C41D8E63EF353C4373420E4 /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru Food-Guru FoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA8E8AAA573CBF2C3D46C36A534B06C0 /* Pods-Guru Food-Guru FoodUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Guru Food-Guru FoodUITests-umbrella.h"; sourceTree = "<group>"; };
-		FB8F83BEAA78FBCAB7383767AD6949E7 /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
-		FE43CBB20D119F0EBD974AF34E286D81 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
+		FD312CC319D0AD6F1F0F24EFA0816C8B /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		FFD47F8DE693BD2E0BF409A64866EDA1 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru Food-Guru FoodUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,14 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				348AA75B2D650415C2EF6BFBFBD68EFE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		613DEDE14885F8EF7C0DD51DD657BA79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC19640357D6CB1EEA25272C1320EAE5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,11 +263,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98427DC9E25BC9B2E2CD56DF8057C59F /* Frameworks */ = {
+		74692957741CE8DD8A0585E3F5253842 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3333BB1C7B8744F4D5D68BAB5623F5FF /* Foundation.framework in Frameworks */,
+				5D40BF8AC3902ACF8F3C2DA4F805ED05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D5B06B560F877F6B60CDEFB0BCF7F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E099615F3729D4459B41F1AA2403775A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D77D8F5BA1C6643E24B87431106C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCECC9754A928C037AABF3E7C46BD1A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +307,34 @@
 			path = "Target Support Files/Pods-Guru Food";
 			sourceTree = "<group>";
 		};
+		1AC3E5B50BF0F6168D3C5DDF83E19F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25806E6B76455F0DE5B9F52042646AC2 /* PureLayout */,
+				F612B954598113ECBD6655CCE674A511 /* Swinject */,
+				99C848BCC901623CF76560AABC046AEC /* SwinjectStoryboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25806E6B76455F0DE5B9F52042646AC2 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6E7F2CA915D15E109CC42F152ECF618D /* ALView+PureLayout.h */,
+				66CC77BD47191F4A2BC26B7783E81241 /* ALView+PureLayout.m */,
+				7D887AC7A730FD34E7147ED84CD806EE /* NSArray+PureLayout.h */,
+				413FD58CB8555DC397196DB40F962A32 /* NSArray+PureLayout.m */,
+				9B53F3FEEE845B0700BA30413843E45A /* NSLayoutConstraint+PureLayout.h */,
+				A65FA3E1A9C0B09A54B54209272B850D /* NSLayoutConstraint+PureLayout.m */,
+				EBFC4E81C2FC7B37AFBB536341E05DB8 /* PureLayout.h */,
+				7C2276E56116ECB9985BB91F6928EA8F /* PureLayout+Internal.h */,
+				D0BEDD6AED68ADF057BF983270351DF3 /* PureLayoutDefines.h */,
+				E38971B8BD6B1FBEF5D0758AA4E19D10 /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
 		3B8EF4BB88197C57E861A714A05886D0 /* Pods-Guru FoodTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,21 +351,6 @@
 			path = "Target Support Files/Pods-Guru FoodTests";
 			sourceTree = "<group>";
 		};
-		41590705E035265CCEE25B9B55E2CB43 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D29231984E3EA97F51B28FC5A7C7CFB /* Swinject.modulemap */,
-				E9A16C88E77D1D6B9188FC39241430D9 /* Swinject-dummy.m */,
-				2EFF5736A417F61F756C9143A56A5C82 /* Swinject-Info.plist */,
-				BB468ABFA916E7370F1BD89F9C6F778F /* Swinject-prefix.pch */,
-				EACAC2AB12D08CC501899FEF35A1D911 /* Swinject-umbrella.h */,
-				1F8E06A3810A8904A2A69D6ED9A64CEC /* Swinject.debug.xcconfig */,
-				0B9165C8C28C28EF07A4EEC61E0C9F9C /* Swinject.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Swinject";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,37 +359,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7241E58B982C492F7FBC2923F3C768E3 /* Swinject */ = {
+		64A2849439841525FF8F02EC732E4EF0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8E79E159A758CAA66E50BC5D70F16E40 /* _Resolver.swift */,
-				0497A49AC3794175C5E229CF35688D72 /* Assembler.swift */,
-				EE5A77282D4D07699EE22318E088E6B4 /* Assembly.swift */,
-				4BF7D4F6D90D3DE9E830B9FDA90E42F3 /* Behavior.swift */,
-				D9C2E064E9EAFE7C6BBEAEFD4A2E4AA0 /* Container.swift */,
-				9EC91E5AFC524812C9D3E5974107E54A /* Container.Arguments.swift */,
-				3137BB19C00F6AFED09A57B83BD32345 /* Container.Logging.swift */,
-				11D512A6B9B79EB9C7E7B6BF85E4E4F6 /* Container.TypeForwarding.swift */,
-				FE43CBB20D119F0EBD974AF34E286D81 /* DebugHelper.swift */,
-				8DF5D05447FBE295FFA4557D57192C80 /* FunctionType.swift */,
-				6C578991D79518DEC2645F29D83C38C0 /* GraphIdentifier.swift */,
-				E3E8485BA2B22FD6FCF8541B1A32F18C /* InstanceStorage.swift */,
-				B27790B8AF2F698FFF95B744C99C6559 /* InstanceWrapper.swift */,
-				84AB6EC7C82CA6E1F93608187F42E27F /* ObjectScope.swift */,
-				3D766F8591F87F2EBA08F2C2DADD0F83 /* ObjectScope.Standard.swift */,
-				B76704385C8416734D065A39031F6A88 /* Resolver.swift */,
-				08F225BDC34B407BFB32F4761F16CD6A /* ServiceEntry.swift */,
-				6B3E49E2B363409FB3657EC95B76201A /* ServiceEntry.TypeForwarding.swift */,
-				D9C8335880E90D9377766B8FE19FCE09 /* ServiceKey.swift */,
-				63DA2B8B2CE48A122BF795101E7FE575 /* SpinLock.swift */,
-				F303CF1C93055DAE597F1F494B8E2AF7 /* Swinject.h */,
-				C5D94C1476DF1E40B8932EE46A709618 /* SynchronizedResolver.swift */,
-				DE0DAD1BEC9A66F5A88B821ED8E6E869 /* SynchronizedResolver.Arguments.swift */,
-				D58C614284D51E6116A3815CC1B93D68 /* UnavailableItems.swift */,
-				41590705E035265CCEE25B9B55E2CB43 /* Support Files */,
+				EF8D57AA695C3C43733E4891FBA36EFA /* SwinjectStoryboard.modulemap */,
+				A9D1422692A1BE26DBFE39AC6FA24B92 /* SwinjectStoryboard-dummy.m */,
+				0CE66E34D5E9807EBEE344490E05DB4F /* SwinjectStoryboard-Info.plist */,
+				D7066610DCA2FAF7A5D06FC2AF68D2BF /* SwinjectStoryboard-prefix.pch */,
+				EA2B095720CEDE2C3DDE63A2FBCED740 /* SwinjectStoryboard-umbrella.h */,
+				555A751CA0C9027E7315A322CA337557 /* SwinjectStoryboard.debug.xcconfig */,
+				6A2BBA91CE47FF57491F25CD49D6876C /* SwinjectStoryboard.release.xcconfig */,
 			);
-			name = Swinject;
-			path = Swinject;
+			name = "Support Files";
+			path = "../Target Support Files/SwinjectStoryboard";
 			sourceTree = "<group>";
 		};
 		84BABE24817F6785A0F32FF33DC1CB9A /* Pods-Guru Food-Guru FoodUITests */ = {
@@ -345,63 +391,27 @@
 			path = "Target Support Files/Pods-Guru Food-Guru FoodUITests";
 			sourceTree = "<group>";
 		};
-		9817200C14EB4BCA92D6C37BE408109A /* Pods */ = {
+		99C848BCC901623CF76560AABC046AEC /* SwinjectStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				7241E58B982C492F7FBC2923F3C768E3 /* Swinject */,
-				C87DEF1E7D8B49D15DBDC991E008142D /* SwinjectStoryboard */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9B445A759FC5D701F7336F352CB2977F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */,
-				D468FE61A8C86C4B26A1DED2C27CBA99 /* Pods-Guru Food-Guru FoodUITests */,
-				40938720D9ECBB3AA3B01C1806999A36 /* Pods-Guru FoodTests */,
-				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
-				357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C87DEF1E7D8B49D15DBDC991E008142D /* SwinjectStoryboard */ = {
-			isa = PBXGroup;
-			children = (
-				4EFE03D7CA272567BE140B7A0C252D30 /* _SwinjectStoryboardBase(iOS-tvOS).swift */,
-				98E5EE3EC39F12A23B3B110604C7B979 /* Box.swift */,
-				F55905A4120C3F1EBCA43ADFBA66A41D /* Container+SwinjectStoryboard.swift */,
-				619A977AD2784271E906B78EE8C3779B /* DispatchQueue+Once.swift */,
-				5A9D339F9449116932ED039F2CE1B16B /* InjectionVerifiable.swift */,
-				1F84FC85D9E9FAA4564FDE8A1DD3633C /* RegistrationNameAssociatable.swift */,
-				C2AADA49707FC5921A35098584769793 /* SwinjectStoryboard.swift */,
-				4BD985AF1E4E981AC1DE64A3728E9D7F /* SwinjectStoryboard+SetUp.m */,
-				FB8F83BEAA78FBCAB7383767AD6949E7 /* SwinjectStoryboard+StoryboardReference.swift */,
-				EFF4A552AF65A58F435221A4A0CA65C1 /* SwinjectStoryboardOption.swift */,
-				50A7833B0EC8A1084DE49CAA693708B0 /* SwinjectStoryboardProtocol.swift */,
-				B0352E0792850A994899C4BDF170381B /* UIStoryboard+Swizzling.swift */,
-				B797E4B491383A75D95D4269E2D66230 /* UnavailableItems.swift */,
-				9C69295B4938AC30801C878162982A0F /* ViewController+Swinject.swift */,
-				CD4E2595C6CD0F5F8A5405A03FBF138E /* Support Files */,
+				81A18D33D5C432CD3B49026577A4D670 /* _SwinjectStoryboardBase(iOS-tvOS).swift */,
+				330C29F9A9A47AA3F2912B904D6BD1B9 /* Box.swift */,
+				EC6465EF2FB78E62EA76C51299256503 /* Container+SwinjectStoryboard.swift */,
+				44099C46BE57D6D64D813C1A79D35DDE /* DispatchQueue+Once.swift */,
+				1A4EAD7267B7F59E16C290B33EA73132 /* InjectionVerifiable.swift */,
+				5AAF3657DB8403F05149682C44ADD7E6 /* RegistrationNameAssociatable.swift */,
+				52AA9FB3517F39D75644DDC0FFD11FA5 /* SwinjectStoryboard.swift */,
+				6FC4E992096909361542F37F02EAEEB3 /* SwinjectStoryboard+SetUp.m */,
+				800934C231FB2EBA7A5D490AB45B52F1 /* SwinjectStoryboard+StoryboardReference.swift */,
+				49748B2901F6685FB4F364E393C4AE96 /* SwinjectStoryboardOption.swift */,
+				7DCB4752D103092F6797694D52ED702A /* SwinjectStoryboardProtocol.swift */,
+				A9F5CE58D632BBA61C729DF818890C95 /* UIStoryboard+Swizzling.swift */,
+				25BDF2C73E01279C556589D1F2DEC8C2 /* UnavailableItems.swift */,
+				C56450267E327807A4B9F01E9D9C7678 /* ViewController+Swinject.swift */,
+				64A2849439841525FF8F02EC732E4EF0 /* Support Files */,
 			);
 			name = SwinjectStoryboard;
 			path = SwinjectStoryboard;
-			sourceTree = "<group>";
-		};
-		CD4E2595C6CD0F5F8A5405A03FBF138E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5061EB018F5157E774D0446CCC495F9 /* SwinjectStoryboard.modulemap */,
-				E10E41BBC8502642409200CBCAFD3F36 /* SwinjectStoryboard-dummy.m */,
-				4E3AC84599548EF8F39A344066E757A1 /* SwinjectStoryboard-Info.plist */,
-				762A4F46EF9CBFA91E46FCFAACF71315 /* SwinjectStoryboard-prefix.pch */,
-				2AA7EC25C3989CCEBA321FB555D64C24 /* SwinjectStoryboard-umbrella.h */,
-				C2CA0002DF52165113C7A566FDF60F86 /* SwinjectStoryboard.debug.xcconfig */,
-				B3FAE2FA1788ACFEC17F70CD7A3AF447 /* SwinjectStoryboard.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwinjectStoryboard";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -409,8 +419,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9817200C14EB4BCA92D6C37BE408109A /* Pods */,
-				9B445A759FC5D701F7336F352CB2977F /* Products */,
+				1AC3E5B50BF0F6168D3C5DDF83E19F8F /* Pods */,
+				DA71446B7C778BD0EBDF7F4CE5145502 /* Products */,
 				DAA43BAC94D9B666A9D188707BFD344E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -423,6 +433,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA71446B7C778BD0EBDF7F4CE5145502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */,
+				D468FE61A8C86C4B26A1DED2C27CBA99 /* Pods-Guru Food-Guru FoodUITests */,
+				40938720D9ECBB3AA3B01C1806999A36 /* Pods-Guru FoodTests */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */,
+				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
+				357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DAA43BAC94D9B666A9D188707BFD344E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,14 +456,85 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E0B9222F25564C5043F7CC049304851A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E50BE97F9613FD93B9B6A93F6CB56D10 /* Swinject.modulemap */,
+				8DF2F2820997EF93012B0002DA9FAE30 /* Swinject-dummy.m */,
+				18F48B75771821A980FABD4C6B8FDF7F /* Swinject-Info.plist */,
+				17065FE94F7C94BE01CC4FED49094A2A /* Swinject-prefix.pch */,
+				EB7ED6D2DBBF6B0984E54953ADCB4C52 /* Swinject-umbrella.h */,
+				E0A635254002F49AA1B5AAC34DA2DD63 /* Swinject.debug.xcconfig */,
+				CBC2BD7F2D5851325506B1C26707F286 /* Swinject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swinject";
+			sourceTree = "<group>";
+		};
+		E38971B8BD6B1FBEF5D0758AA4E19D10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F98CA5D10196128B2F12AFF03323C4F /* PureLayout.modulemap */,
+				E44E75CF05027A1CBD0DAAC931EB455C /* PureLayout-dummy.m */,
+				6EC765D3FF2369001AEA47D35EB14C06 /* PureLayout-Info.plist */,
+				3C4EAE365196C42720B40F4163A48445 /* PureLayout-prefix.pch */,
+				177BE74C8EEAECE49E51F32465CEF3CD /* PureLayout-umbrella.h */,
+				66BE6F3D8DBAE17CE8980C3C8929662E /* PureLayout.debug.xcconfig */,
+				6082972F947E2A0BA0074F57F0BB2E35 /* PureLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		F612B954598113ECBD6655CCE674A511 /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				206D7E939D2378DCFA97D17D9759C518 /* _Resolver.swift */,
+				EB7825EBF684703DF817D92092137A0D /* Assembler.swift */,
+				41E13DA416D355C61B4570D0972716F7 /* Assembly.swift */,
+				AA4D8756602BE91590A50D839967B0F6 /* Behavior.swift */,
+				14C01240314558D7D9BFEDD15166E9A3 /* Container.swift */,
+				D66D357429B06AF0206469392E42E477 /* Container.Arguments.swift */,
+				0705B6EABEB9FB1AE2858FB97FE8DB50 /* Container.Logging.swift */,
+				57E05A9AED2DFA631E124343378EEF89 /* Container.TypeForwarding.swift */,
+				56E7E31F8623B256B7DFD2677301E780 /* DebugHelper.swift */,
+				EE50144D94323397E9E2A1164E18191F /* FunctionType.swift */,
+				46E431BA48B70E3AC4A71631F37D019D /* GraphIdentifier.swift */,
+				AC2AA3FE61560D4B2B06D339130539F4 /* InstanceStorage.swift */,
+				47E8602D460EF0233CBBED403EA246B6 /* InstanceWrapper.swift */,
+				A68D24D52D01518DC65C2C209D2DA6C0 /* ObjectScope.swift */,
+				7955CAC6422C9FB3C24470111AAE96C6 /* ObjectScope.Standard.swift */,
+				FD312CC319D0AD6F1F0F24EFA0816C8B /* Resolver.swift */,
+				06E9A4C319346D051FBB78E0BAAA0319 /* ServiceEntry.swift */,
+				BAA299BF0AE7AE0950369FE8422E5457 /* ServiceEntry.TypeForwarding.swift */,
+				3271C22F8E6315B301F9D3C4F31C523B /* ServiceKey.swift */,
+				E807AAED5FF0C022A1D8CFCF713C9B94 /* SpinLock.swift */,
+				2EBC1D9235FF423ADA34DE422BB6D6F4 /* Swinject.h */,
+				72AB8D38E90FFAB2A91CCB3136158E9C /* SynchronizedResolver.swift */,
+				98C1552174E6CA349956890FA2CC85F7 /* SynchronizedResolver.Arguments.swift */,
+				03D5213AC0057938135B596FCE7E5BCC /* UnavailableItems.swift */,
+				E0B9222F25564C5043F7CC049304851A /* Support Files */,
+			);
+			name = Swinject;
+			path = Swinject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2150C7D95DC57D94B895B014E0AB4D69 /* Headers */ = {
+		12401E9EC59049292025C718B07E1109 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E76080A6A14ECBF83F397BB9576380C /* Pods-Guru Food-Guru FoodUITests-umbrella.h in Headers */,
+				CE13C5B30ABBEF978492E901D56270A9 /* Pods-Guru Food-Guru FoodUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26FB5477AD3F036E0C632A66BC770C1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E4C616C7BEA9EE4CDE5AAAA86FA2A7 /* Pods-Guru Food-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,17 +563,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C51A52F70EBD80EF23F5F7E25D3C0D14 /* Headers */ = {
+		E81957AAEF5FEDD397C5425F057B5B75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD3B08045CC5059A0EE5898A5F1E13F3 /* Pods-Guru Food-umbrella.h in Headers */,
+				C48883845D739B5D005B90914BD32632 /* ALView+PureLayout.h in Headers */,
+				1EEF68CF4F49C230CC89DB838CFA3669 /* NSArray+PureLayout.h in Headers */,
+				253201FFCEA478C99A3970C5E3722B74 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				B7775391C9C7FB76EC7616CA37E04B7B /* PureLayout.h in Headers */,
+				C91790192E090C1FA15F0BBBFB0ED231 /* PureLayout+Internal.h in Headers */,
+				87BBBAF1F66B27E2153592C17D22499B /* PureLayout-umbrella.h in Headers */,
+				4B6DFFA937E35E23F45DC619C1EAB573 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		06F5CDD6235E25837519792853B145A1 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D963C8C86D4CA497DEF3C6C012CD93B /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				E81957AAEF5FEDD397C5425F057B5B75 /* Headers */,
+				AEA95D4A6EF7ABB5A798DC84153F6F6C /* Sources */,
+				9D5B06B560F877F6B60CDEFB0BCF7F47 /* Frameworks */,
+				261646C511CA38C074F880A2F90639B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */;
+			productType = "com.apple.product-type.framework";
+		};
 		46065AF968A5A92D450BB21F7F24367D /* Swinject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DECF1828D9E2F514E5102832FC7C084E /* Build configuration list for PBXNativeTarget "Swinject" */;
@@ -500,18 +618,19 @@
 		};
 		4770D7E1899740C01968244A0772FC33 /* Pods-Guru Food-Guru FoodUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AA3B7F7C15C7D79A64E498DA5343DA7 /* Build configuration list for PBXNativeTarget "Pods-Guru Food-Guru FoodUITests" */;
+			buildConfigurationList = 2B8C700185D5E623C7469D35D437A83D /* Build configuration list for PBXNativeTarget "Pods-Guru Food-Guru FoodUITests" */;
 			buildPhases = (
-				2150C7D95DC57D94B895B014E0AB4D69 /* Headers */,
-				B6F82E7841833E8E44B52186FAE84EE1 /* Sources */,
-				613DEDE14885F8EF7C0DD51DD657BA79 /* Frameworks */,
-				FB951A22005E12E6E864ED6F3EA00AF6 /* Resources */,
+				12401E9EC59049292025C718B07E1109 /* Headers */,
+				47437CDFD8ED3D83806E6C63593907AB /* Sources */,
+				74692957741CE8DD8A0585E3F5253842 /* Frameworks */,
+				00DB3A13B1A75F43C018A4D7E2A576AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01A6F5537FAB9CBBB9C9AC85C4F9457A /* PBXTargetDependency */,
-				B666AB221150F3BB956F635571A09D49 /* PBXTargetDependency */,
+				7AD54272A3C3677C95D40EBD5C62B7B7 /* PBXTargetDependency */,
+				394D102B070AE6837524FBEEA05853AF /* PBXTargetDependency */,
+				DAD1120645E9A75D670792CE19C4BE22 /* PBXTargetDependency */,
 			);
 			name = "Pods-Guru Food-Guru FoodUITests";
 			productName = Pods_Guru_Food_Guru_FoodUITests;
@@ -530,7 +649,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DF281050C11391F9CCB1925578B07877 /* PBXTargetDependency */,
+				6FD2835E6CA0272325615AD67E565B94 /* PBXTargetDependency */,
 			);
 			name = "Pods-Guru FoodTests";
 			productName = Pods_Guru_FoodTests;
@@ -539,18 +658,19 @@
 		};
 		57F099B4C16D0257DA25E321776E6DBD /* Pods-Guru Food */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ADBEA11B3F372B035EA999E937BD9AA /* Build configuration list for PBXNativeTarget "Pods-Guru Food" */;
+			buildConfigurationList = 42A3014799EA0F0FDCDA01F211D3B7F3 /* Build configuration list for PBXNativeTarget "Pods-Guru Food" */;
 			buildPhases = (
-				C51A52F70EBD80EF23F5F7E25D3C0D14 /* Headers */,
-				6931CE285819C76E324E0D46BC12E523 /* Sources */,
-				98427DC9E25BC9B2E2CD56DF8057C59F /* Frameworks */,
-				3D1B869E76C40B82C2A46058FAF60104 /* Resources */,
+				26FB5477AD3F036E0C632A66BC770C1E /* Headers */,
+				A6C2242EF32DC4BE557AD6AD4701EBCF /* Sources */,
+				C9D77D8F5BA1C6643E24B87431106C08 /* Frameworks */,
+				F6027DACB53F04A96061E8889E68C50D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				07C3A7E3F80ED1CA8E8E8C6FA11C4181 /* PBXTargetDependency */,
-				7E2F6B51327F320F2FD9A7428D0251BB /* PBXTargetDependency */,
+				9E68FD861B979D0943BE62655B900C7A /* PBXTargetDependency */,
+				7380985E6098CFFE12F0E71A45425A02 /* PBXTargetDependency */,
+				3C1DDE3B0BC2EEE07579A5C974971E18 /* PBXTargetDependency */,
 			);
 			name = "Pods-Guru Food";
 			productName = Pods_Guru_Food;
@@ -569,7 +689,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A5D0BB2337910CE2C6D5E5B7D1883018 /* PBXTargetDependency */,
+				374A30C56454941767E3519F566A8671 /* PBXTargetDependency */,
 			);
 			name = SwinjectStoryboard;
 			productName = SwinjectStoryboard;
@@ -594,13 +714,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9B445A759FC5D701F7336F352CB2977F /* Products */;
+			productRefGroup = DA71446B7C778BD0EBDF7F4CE5145502 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				57F099B4C16D0257DA25E321776E6DBD /* Pods-Guru Food */,
 				4770D7E1899740C01968244A0772FC33 /* Pods-Guru Food-Guru FoodUITests */,
 				47C4AE21EE556788431E1524A533E260 /* Pods-Guru FoodTests */,
+				06F5CDD6235E25837519792853B145A1 /* PureLayout */,
 				46065AF968A5A92D450BB21F7F24367D /* Swinject */,
 				65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */,
 			);
@@ -608,7 +729,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D1B869E76C40B82C2A46058FAF60104 /* Resources */ = {
+		00DB3A13B1A75F43C018A4D7E2A576AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		261646C511CA38C074F880A2F90639B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -636,7 +764,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB951A22005E12E6E864ED6F3EA00AF6 /* Resources */ = {
+		F6027DACB53F04A96061E8889E68C50D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -668,11 +796,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6931CE285819C76E324E0D46BC12E523 /* Sources */ = {
+		47437CDFD8ED3D83806E6C63593907AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9548CDA8FA32297AE64E7B3582933F84 /* Pods-Guru Food-dummy.m in Sources */,
+				BE62A61E5452001B598160DEE5C44BB7 /* Pods-Guru Food-Guru FoodUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,11 +835,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6F82E7841833E8E44B52186FAE84EE1 /* Sources */ = {
+		A6C2242EF32DC4BE557AD6AD4701EBCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11660D3605C1F85D57C0EAF4D62772A4 /* Pods-Guru Food-Guru FoodUITests-dummy.m in Sources */,
+				5517A45785F9AC49C6BAA2E5AFADA636 /* Pods-Guru Food-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA95D4A6EF7ABB5A798DC84153F6F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD3C94718B2D4C1445D2F8FFCCB3F6E /* ALView+PureLayout.m in Sources */,
+				8CDC73E1BC5CC030BC31CB816667B063 /* NSArray+PureLayout.m in Sources */,
+				4A3E057801126F54459EF3273AF88D8A /* NSLayoutConstraint+PureLayout.m in Sources */,
+				67574E0AAA9E58393D1C2E1B4C5E1707 /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,46 +865,58 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01A6F5537FAB9CBBB9C9AC85C4F9457A /* PBXTargetDependency */ = {
+		374A30C56454941767E3519F566A8671 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Swinject;
 			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
-			targetProxy = ABADB152D92F9AE33657A2788E54B9F1 /* PBXContainerItemProxy */;
+			targetProxy = B7105C36AECEC3510C0CE94992D85921 /* PBXContainerItemProxy */;
 		};
-		07C3A7E3F80ED1CA8E8E8C6FA11C4181 /* PBXTargetDependency */ = {
+		394D102B070AE6837524FBEEA05853AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Swinject;
 			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
-			targetProxy = AF32424D3EB88544AD12F179379C766C /* PBXContainerItemProxy */;
+			targetProxy = DEBD58FEEA0721C4209DA4FDAFD803C0 /* PBXContainerItemProxy */;
 		};
-		7E2F6B51327F320F2FD9A7428D0251BB /* PBXTargetDependency */ = {
+		3C1DDE3B0BC2EEE07579A5C974971E18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwinjectStoryboard;
 			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
-			targetProxy = F9FD27C0F764188E41F3752EADF6E760 /* PBXContainerItemProxy */;
+			targetProxy = 4C55CA5108D9C1B10B532AD2482E8791 /* PBXContainerItemProxy */;
 		};
-		A5D0BB2337910CE2C6D5E5B7D1883018 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Swinject;
-			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
-			targetProxy = AC7B980633F7A403E45C3EE076651AC1 /* PBXContainerItemProxy */;
-		};
-		B666AB221150F3BB956F635571A09D49 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwinjectStoryboard;
-			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
-			targetProxy = 6F5C48FBCFCD5995DDAFB6FFA193A957 /* PBXContainerItemProxy */;
-		};
-		DF281050C11391F9CCB1925578B07877 /* PBXTargetDependency */ = {
+		6FD2835E6CA0272325615AD67E565B94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Guru Food";
 			target = 57F099B4C16D0257DA25E321776E6DBD /* Pods-Guru Food */;
-			targetProxy = 14B415C7D485531CE81A738C93C98A56 /* PBXContainerItemProxy */;
+			targetProxy = 45CE28D9F133D71E7CC0F7453317E63B /* PBXContainerItemProxy */;
+		};
+		7380985E6098CFFE12F0E71A45425A02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = FC7D29F672FB084A0FF7E828271A441A /* PBXContainerItemProxy */;
+		};
+		7AD54272A3C3677C95D40EBD5C62B7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = 422ABA2B460E6269A69CD48290EB4586 /* PBXContainerItemProxy */;
+		};
+		9E68FD861B979D0943BE62655B900C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 06F5CDD6235E25837519792853B145A1 /* PureLayout */;
+			targetProxy = 15D5A0E2119836D165BCB00B9F18A1FF /* PBXContainerItemProxy */;
+		};
+		DAD1120645E9A75D670792CE19C4BE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectStoryboard;
+			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
+			targetProxy = 2EE63D11996CE067650FC9B4268C3271 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09C4D4B060D34EB8153401038DDF6944 /* Release */ = {
+		08C0D6B46B8889F34F81B5F0A725B1A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A03B3221B24B7C4C8D6B3D276D42EC1A /* Pods-Guru Food.release.xcconfig */;
 			buildSettings = {
@@ -804,7 +955,7 @@
 		};
 		0C9557DB733412CBBBD6B2920A29228B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2CA0002DF52165113C7A566FDF60F86 /* SwinjectStoryboard.debug.xcconfig */;
+			baseConfigurationReference = 555A751CA0C9027E7315A322CA337557 /* SwinjectStoryboard.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -939,9 +1090,9 @@
 			};
 			name = Debug;
 		};
-		40CC591C24A0C4FE984A9488401CFBAF /* Debug */ = {
+		4CC29ACB6C8146167727545FF284FF8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9166C720C41D8E63EF353C4373420E4 /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */;
+			baseConfigurationReference = FFD47F8DE693BD2E0BF409A64866EDA1 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -970,14 +1121,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		542EB4B467E88DE27834E412E3EE56A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6082972F947E2A0BA0074F57F0BB2E35 /* PureLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		6EBF1CD093C1D6AD8B009C59A4FFE9A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3FAE2FA1788ACFEC17F70CD7A3AF447 /* SwinjectStoryboard.release.xcconfig */;
+			baseConfigurationReference = 6A2BBA91CE47FF57491F25CD49D6876C /* SwinjectStoryboard.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1010,11 +1197,10 @@
 			};
 			name = Release;
 		};
-		AC738832F558F45CCD0E79ABF7DAF850 /* Debug */ = {
+		7985DB1554E1D3342B74D277E7BA3750 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D3094FF93FFC842DEE8E2CF3ADA49B0 /* Pods-Guru Food.debug.xcconfig */;
+			baseConfigurationReference = 66BE6F3D8DBAE17CE8980C3C8929662E /* PureLayout.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1023,7 +1209,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Guru Food/Pods-Guru Food-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/PureLayout-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1031,15 +1218,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Guru Food/Pods-Guru Food.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_MODULE_NAME = PureLayout;
+				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1084,7 +1269,7 @@
 		};
 		C90FA2021E880B2AB42F54346DAC4A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F8E06A3810A8904A2A69D6ED9A64CEC /* Swinject.debug.xcconfig */;
+			baseConfigurationReference = E0A635254002F49AA1B5AAC34DA2DD63 /* Swinject.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1178,9 +1363,45 @@
 			};
 			name = Release;
 		};
-		D980742CDBEC3FBBD46D6259E3605408 /* Release */ = {
+		D31AC8DD003A648D5D07465BF74449ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFD47F8DE693BD2E0BF409A64866EDA1 /* Pods-Guru Food-Guru FoodUITests.release.xcconfig */;
+			baseConfigurationReference = 2D3094FF93FFC842DEE8E2CF3ADA49B0 /* Pods-Guru Food.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Guru Food/Pods-Guru Food-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Guru Food/Pods-Guru Food.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7187C3F09E1647FE69B90E588BEB692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9166C720C41D8E63EF353C4373420E4 /* Pods-Guru Food-Guru FoodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1209,15 +1430,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		EF8E26F317D7F52E1DE1B96D760351D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B9165C8C28C28EF07A4EEC61E0C9F9C /* Swinject.release.xcconfig */;
+			baseConfigurationReference = CBC2BD7F2D5851325506B1C26707F286 /* Swinject.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1253,11 +1473,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B8C700185D5E623C7469D35D437A83D /* Build configuration list for PBXNativeTarget "Pods-Guru Food-Guru FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7187C3F09E1647FE69B90E588BEB692 /* Debug */,
+				4CC29ACB6C8146167727545FF284FF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		397EE6F1652838C5AC83E89DB1A0AD70 /* Build configuration list for PBXNativeTarget "Pods-Guru FoodTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDE39B3D8008E114E9C91E40DF982F36 /* Debug */,
 				0F531D9D98C0AB19440F7154D4FCA6E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A3014799EA0F0FDCDA01F211D3B7F3 /* Build configuration list for PBXNativeTarget "Pods-Guru Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31AC8DD003A648D5D07465BF74449ED /* Debug */,
+				08C0D6B46B8889F34F81B5F0A725B1A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1271,15 +1509,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ADBEA11B3F372B035EA999E937BD9AA /* Build configuration list for PBXNativeTarget "Pods-Guru Food" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC738832F558F45CCD0E79ABF7DAF850 /* Debug */,
-				09C4D4B060D34EB8153401038DDF6944 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		76999E86D5FC598DDBF1614AC52F1C9A /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1289,11 +1518,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AA3B7F7C15C7D79A64E498DA5343DA7 /* Build configuration list for PBXNativeTarget "Pods-Guru Food-Guru FoodUITests" */ = {
+		7D963C8C86D4CA497DEF3C6C012CD93B /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40CC591C24A0C4FE984A9488401CFBAF /* Debug */,
-				D980742CDBEC3FBBD46D6259E3605408 /* Release */,
+				7985DB1554E1D3342B74D277E7BA3750 /* Debug */,
+				542EB4B467E88DE27834E412E3EE56A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

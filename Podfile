@@ -9,6 +9,8 @@ target 'Guru Food' do
   pod 'Swinject', '2.7.1'
   pod 'SwinjectStoryboard', :git => 'https://github.com/Swinject/SwinjectStoryboard.git', :branch => 'master'
 
+  pod 'PureLayout'
+
   target 'Guru FoodTests' do
     inherit! :search_paths
     # Pods for testing

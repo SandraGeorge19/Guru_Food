@@ -1,5 +1,5 @@
 //
-//  UIImageEx.swift
+//  UIImageViewEx.swift
 //  Guru Food
 //
 //  Created by Sandra on 28/05/2023.
@@ -12,14 +12,17 @@ extension UIImageView {
     func applyGradient(colors: [UIColor], startPoint: CGPoint, endPoint: CGPoint) {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
-        // Create an array of CGColors from the provided UIColors
-        let cgColors = colors.map { $0.cgColor }
         // Set the gradient layer's colors
-        gradientLayer.colors = cgColors
+        gradientLayer.colors = colors
+        gradientLayer.locations = [0.0, 1.0]
         // Set the gradient layer's start and end points
         gradientLayer.startPoint = startPoint
         gradientLayer.endPoint = endPoint
         // Ensure that the gradient layer is behind the image view's content
+        // Clip gradients to background bounds
+        clipsToBounds = true
+        // Set transparency level
+        alpha = 0.92
         layer.insertSublayer(gradientLayer, at: 0)
     }
 }

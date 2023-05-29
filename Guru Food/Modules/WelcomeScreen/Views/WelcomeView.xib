@@ -8,23 +8,29 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeView" customModule="Guru_Food" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundImg" destination="BYq-v5-Xvr" id="pLv-nr-O5k"/>
+                <outlet property="subTitleLabel" destination="aB8-p9-dLL" id="utV-eD-3Rs"/>
+                <outlet property="titleLabel" destination="YdT-9c-bpt" id="Yw9-I7-lC2"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" restorationIdentifier="WelcomeView" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BYq-v5-Xvr">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreenImg" translatesAutoresizingMaskIntoConstraints="NO" id="BYq-v5-Xvr">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YdT-9c-bpt">
-                    <rect key="frame" x="85" y="266.66666666666669" width="223" height="20.333333333333314"/>
+                    <rect key="frame" x="16" y="289" width="361" height="20.333333333333314"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aB8-p9-dLL">
-                    <rect key="frame" x="110" y="287" width="173" height="21"/>
+                    <rect key="frame" x="50" y="314.33333333333331" width="293" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -33,23 +39,23 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="YdT-9c-bpt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="230" id="14z-Gm-oet"/>
                 <constraint firstItem="BYq-v5-Xvr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="7Y1-qO-xu4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YdT-9c-bpt" secondAttribute="trailing" constant="16" id="89J-Wm-PQm"/>
                 <constraint firstItem="BYq-v5-Xvr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9Xt-gY-TPo"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="aB8-p9-dLL" secondAttribute="bottom" constant="510" id="9YT-8t-7OL"/>
-                <constraint firstItem="YdT-9c-bpt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="239" id="9dZ-56-9vz"/>
-                <constraint firstItem="aB8-p9-dLL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="110" id="NRg-Ko-CQO"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YdT-9c-bpt" secondAttribute="trailing" constant="85" id="RbK-bo-Q7j"/>
+                <constraint firstItem="aB8-p9-dLL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="50" id="Ba1-TA-R64"/>
+                <constraint firstItem="YdT-9c-bpt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="DpQ-Mx-bwC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aB8-p9-dLL" secondAttribute="trailing" constant="50" id="cZx-Xi-Tqk"/>
                 <constraint firstAttribute="bottom" secondItem="BYq-v5-Xvr" secondAttribute="bottom" id="eVW-wa-xOG"/>
                 <constraint firstItem="BYq-v5-Xvr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gYU-5T-6Th"/>
-                <constraint firstItem="YdT-9c-bpt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="85" id="l6j-pA-VfU"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="aB8-p9-dLL" secondAttribute="trailing" constant="110" id="r7p-da-dRn"/>
-                <constraint firstItem="aB8-p9-dLL" firstAttribute="top" secondItem="YdT-9c-bpt" secondAttribute="bottom" id="wXO-Xw-CS9"/>
+                <constraint firstItem="aB8-p9-dLL" firstAttribute="top" secondItem="YdT-9c-bpt" secondAttribute="bottom" constant="5" id="s6s-16-z4p"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>
+        <image name="launchscreenImg" width="428" height="926"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

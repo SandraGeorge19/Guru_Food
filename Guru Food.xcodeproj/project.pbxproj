@@ -30,17 +30,24 @@
 		B62CD5D92A23DCC600664E4C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B62CD5C62A23DCC600664E4C /* Poppins-SemiBold.ttf */; };
 		B62CD5DA2A23DCC600664E4C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B62CD5C72A23DCC600664E4C /* Poppins-Italic.ttf */; };
 		B62CD5DB2A23DCC600664E4C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B62CD5C82A23DCC600664E4C /* Poppins-MediumItalic.ttf */; };
-		B62CD5DF2A23DF9300664E4C /* UIImageEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CD5DE2A23DF9300664E4C /* UIImageEx.swift */; };
+		B62CD5DF2A23DF9300664E4C /* UIImageViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62CD5DE2A23DF9300664E4C /* UIImageViewEx.swift */; };
 		B67A5D192A110010009005CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D182A110010009005CD /* AppDelegate.swift */; };
 		B67A5D1B2A110010009005CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1A2A110010009005CD /* SceneDelegate.swift */; };
-		B67A5D1D2A110010009005CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1C2A110010009005CD /* ViewController.swift */; };
-		B67A5D202A110010009005CD /* WelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */; };
+		B67A5D1D2A110010009005CD /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D1C2A110010009005CD /* WelcomeScreenViewController.swift */; };
+		B67A5D202A110010009005CD /* WelcomeScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D1E2A110010009005CD /* WelcomeScreenViewController.storyboard */; };
 		B67A5D232A110010009005CD /* Guru_Food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D212A110010009005CD /* Guru_Food.xcdatamodeld */; };
 		B67A5D252A110013009005CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D242A110013009005CD /* Assets.xcassets */; };
 		B67A5D282A110013009005CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67A5D262A110013009005CD /* LaunchScreen.storyboard */; };
 		B67A5D332A110014009005CD /* Guru_FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D322A110014009005CD /* Guru_FoodTests.swift */; };
 		B67A5D3D2A110014009005CD /* Guru_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */; };
 		B67A5D3F2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */; };
+		B6AABB542A24F9AA00855EBF /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AABB532A24F9AA00855EBF /* AppConstants.swift */; };
+		B6AABB572A24FC1C00855EBF /* WelcomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AABB562A24FC1C00855EBF /* WelcomeModel.swift */; };
+		B6AABB592A24FE3E00855EBF /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AABB582A24FE3E00855EBF /* UIViewEx.swift */; };
+		B6ACDD372A25050E0006363F /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ACDD362A25050E0006363F /* UIColorEx.swift */; };
+		B6B423162A251E9700E028E6 /* UIFontEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B423152A251E9700E028E6 /* UIFontEx.swift */; };
+		B6B4231A2A2526AB00E028E6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B423192A2526AB00E028E6 /* Home.storyboard */; };
+		B6B4231C2A2526D700E028E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4231B2A2526D700E028E6 /* HomeViewController.swift */; };
 		BB940A1B097DBE0630A40E76 /* Pods_Guru_FoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A39A9ABF663A2F1C995DA38 /* Pods_Guru_FoodTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,12 +97,12 @@
 		B62CD5C62A23DCC600664E4C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		B62CD5C72A23DCC600664E4C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
 		B62CD5C82A23DCC600664E4C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
-		B62CD5DE2A23DF9300664E4C /* UIImageEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageEx.swift; sourceTree = "<group>"; };
+		B62CD5DE2A23DF9300664E4C /* UIImageViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewEx.swift; sourceTree = "<group>"; };
 		B67A5D152A110010009005CD /* Guru Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guru Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67A5D182A110010009005CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67A5D1A2A110010009005CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B67A5D1C2A110010009005CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B67A5D1F2A110010009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WelcomeScreen.storyboard; sourceTree = "<group>"; };
+		B67A5D1C2A110010009005CD /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		B67A5D1F2A110010009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WelcomeScreenViewController.storyboard; sourceTree = "<group>"; };
 		B67A5D222A110010009005CD /* Guru_Food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Guru_Food.xcdatamodel; sourceTree = "<group>"; };
 		B67A5D242A110013009005CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67A5D272A110013009005CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,6 +112,13 @@
 		B67A5D382A110014009005CD /* Guru FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guru FoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67A5D3C2A110014009005CD /* Guru_FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITests.swift; sourceTree = "<group>"; };
 		B67A5D3E2A110014009005CD /* Guru_FoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guru_FoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6AABB532A24F9AA00855EBF /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B6AABB562A24FC1C00855EBF /* WelcomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModel.swift; sourceTree = "<group>"; };
+		B6AABB582A24FE3E00855EBF /* UIViewEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		B6ACDD362A25050E0006363F /* UIColorEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		B6B423152A251E9700E028E6 /* UIFontEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontEx.swift; sourceTree = "<group>"; };
+		B6B423192A2526AB00E028E6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B6B4231B2A2526D700E028E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2149F4CEEE808B73E30A0B5 /* Pods-Guru FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru FoodTests.release.xcconfig"; path = "Target Support Files/Pods-Guru FoodTests/Pods-Guru FoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		F7386046E2BA4717F4CB19ED /* Pods-Guru Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Guru Food.debug.xcconfig"; path = "Target Support Files/Pods-Guru Food/Pods-Guru Food.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,6 +210,7 @@
 		B62CD5DC2A23DF6800664E4C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B6AABB522A24F99800855EBF /* AppConstants */,
 				B62CD5DD2A23DF7E00664E4C /* UIExtensions */,
 			);
 			path = Utilities;
@@ -204,9 +219,23 @@
 		B62CD5DD2A23DF7E00664E4C /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				B62CD5DE2A23DF9300664E4C /* UIImageEx.swift */,
+				B62CD5DE2A23DF9300664E4C /* UIImageViewEx.swift */,
+				B6AABB582A24FE3E00855EBF /* UIViewEx.swift */,
+				B6ACDD362A25050E0006363F /* UIColorEx.swift */,
+				B6B423152A251E9700E028E6 /* UIFontEx.swift */,
 			);
 			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		B62CD5E12A23EAC500664E4C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B6B423182A25269200E028E6 /* Views */,
+				B6B423172A25268600E028E6 /* Model */,
+				B6B423192A2526AB00E028E6 /* Home.storyboard */,
+				B6B4231B2A2526D700E028E6 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		B67A5D0C2A110010009005CD = {
@@ -239,7 +268,6 @@
 				B67A5D4C2A110377009005CD /* Resources */,
 				B67A5D522A111DB1009005CD /* CoreData */,
 				B67A5D4B2A11030B009005CD /* AppDelegates */,
-				B67A5D1C2A110010009005CD /* ViewController.swift */,
 			);
 			path = "Guru Food";
 			sourceTree = "<group>";
@@ -292,9 +320,10 @@
 		B67A5D4E2A110883009005CD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				B67A5D562A111E33009005CD /* RecipeDetails */,
-				B67A5D552A111E10009005CD /* Favourites */,
 				B67A5D532A111DF8009005CD /* WelcomeScreen */,
+				B62CD5E12A23EAC500664E4C /* Home */,
+				B67A5D552A111E10009005CD /* Favourites */,
+				B67A5D562A111E33009005CD /* RecipeDetails */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -318,8 +347,10 @@
 		B67A5D532A111DF8009005CD /* WelcomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				B6AABB552A24FC0300855EBF /* Model */,
 				B62CD5AF2A23DA9E00664E4C /* Views */,
-				B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */,
+				B67A5D1E2A110010009005CD /* WelcomeScreenViewController.storyboard */,
+				B67A5D1C2A110010009005CD /* WelcomeScreenViewController.swift */,
 			);
 			path = WelcomeScreen;
 			sourceTree = "<group>";
@@ -336,6 +367,36 @@
 			children = (
 			);
 			path = RecipeDetails;
+			sourceTree = "<group>";
+		};
+		B6AABB522A24F99800855EBF /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				B6AABB532A24F9AA00855EBF /* AppConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		B6AABB552A24FC0300855EBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6AABB562A24FC1C00855EBF /* WelcomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6B423172A25268600E028E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6B423182A25269200E028E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DDBF23EFF37D45842932A618 /* Frameworks */ = {
@@ -473,8 +534,9 @@
 				B67A5D252A110013009005CD /* Assets.xcassets in Resources */,
 				B62CD5CA2A23DCC600664E4C /* Poppins-ThinItalic.ttf in Resources */,
 				B62CD5D22A23DCC600664E4C /* Poppins-BlackItalic.ttf in Resources */,
+				B6B4231A2A2526AB00E028E6 /* Home.storyboard in Resources */,
 				B62CD5D92A23DCC600664E4C /* Poppins-SemiBold.ttf in Resources */,
-				B67A5D202A110010009005CD /* WelcomeScreen.storyboard in Resources */,
+				B67A5D202A110010009005CD /* WelcomeScreenViewController.storyboard in Resources */,
 				B62CD5B32A23DAEC00664E4C /* WelcomeView.xib in Resources */,
 				B62CD5DA2A23DCC600664E4C /* Poppins-Italic.ttf in Resources */,
 				B62CD5CC2A23DCC600664E4C /* Poppins-BoldItalic.ttf in Resources */,
@@ -628,10 +690,16 @@
 			files = (
 				B62CD5B12A23DAE000664E4C /* WelcomeView.swift in Sources */,
 				B67A5D232A110010009005CD /* Guru_Food.xcdatamodeld in Sources */,
-				B62CD5DF2A23DF9300664E4C /* UIImageEx.swift in Sources */,
-				B67A5D1D2A110010009005CD /* ViewController.swift in Sources */,
+				B6B423162A251E9700E028E6 /* UIFontEx.swift in Sources */,
+				B6AABB592A24FE3E00855EBF /* UIViewEx.swift in Sources */,
+				B6AABB572A24FC1C00855EBF /* WelcomeModel.swift in Sources */,
+				B62CD5DF2A23DF9300664E4C /* UIImageViewEx.swift in Sources */,
+				B67A5D1D2A110010009005CD /* WelcomeScreenViewController.swift in Sources */,
+				B6AABB542A24F9AA00855EBF /* AppConstants.swift in Sources */,
 				B67A5D192A110010009005CD /* AppDelegate.swift in Sources */,
+				B6ACDD372A25050E0006363F /* UIColorEx.swift in Sources */,
 				B67A5D1B2A110010009005CD /* SceneDelegate.swift in Sources */,
+				B6B4231C2A2526D700E028E6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,12 +736,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B67A5D1E2A110010009005CD /* WelcomeScreen.storyboard */ = {
+		B67A5D1E2A110010009005CD /* WelcomeScreenViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B67A5D1F2A110010009005CD /* Base */,
 			);
-			name = WelcomeScreen.storyboard;
+			name = WelcomeScreenViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		B67A5D262A110013009005CD /* LaunchScreen.storyboard */ = {
@@ -815,7 +883,7 @@
 				INFOPLIST_FILE = "Guru Food/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreenViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -843,7 +911,7 @@
 				INFOPLIST_FILE = "Guru Food/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeScreenViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,14 +1,17 @@
 PODS:
+  - PureLayout (3.1.9)
   - Swinject (2.7.1)
   - SwinjectStoryboard (2.2.1):
     - Swinject (~> 2.7.1)
 
 DEPENDENCIES:
+  - PureLayout
   - Swinject (= 2.7.1)
   - SwinjectStoryboard (from `https://github.com/Swinject/SwinjectStoryboard.git`, branch `master`)
 
 SPEC REPOS:
   trunk:
+    - PureLayout
     - Swinject
 
 EXTERNAL SOURCES:
@@ -22,9 +25,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Swinject/SwinjectStoryboard.git
 
 SPEC CHECKSUMS:
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
   SwinjectStoryboard: 92ca3575fec0b87a27d79be2d03f8d94495d6a10
 
-PODFILE CHECKSUM: a611cff9e939cf1d3bad1af55e0358864f1dd4d2
+PODFILE CHECKSUM: df5158b863e011870b8b6eb70004c31745d5641f
 
 COCOAPODS: 1.11.3
