@@ -193,11 +193,11 @@
 		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6EF1D4ADE37709A87866879DE71534 /* Pods-Guru Food-Guru FoodUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Guru Food-Guru FoodUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8DF2F2820997EF93012B0002DA9FAE30 /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
-		91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Guru Food"; path = Pods_Guru_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE15BCDD61D67765D96E4B13E646C3 /* Pods_Guru_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Guru_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D5DFB33AF0CFDB075106685FC1A89B /* Pods-Guru FoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru FoodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		98C1552174E6CA349956890FA2CC85F7 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
 		9B53F3FEEE845B0700BA30413843E45A /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F98CA5D10196128B2F12AFF03323C4F /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
 		A03B3221B24B7C4C8D6B3D276D42EC1A /* Pods-Guru Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru Food.release.xcconfig"; sourceTree = "<group>"; };
 		A65FA3E1A9C0B09A54B54209272B850D /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
@@ -220,7 +220,7 @@
 		D9BB20827A9B1A8FF212B482CB79F79B /* Pods-Guru FoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Guru FoodTests.release.xcconfig"; sourceTree = "<group>"; };
 		E0A635254002F49AA1B5AAC34DA2DD63 /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
 		E44E75CF05027A1CBD0DAAC931EB455C /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50BE97F9613FD93B9B6A93F6CB56D10 /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swinject.modulemap; sourceTree = "<group>"; };
 		E807AAED5FF0C022A1D8CFCF713C9B94 /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
 		EA2B095720CEDE2C3DDE63A2FBCED740 /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
@@ -331,7 +331,6 @@
 				D0BEDD6AED68ADF057BF983270351DF3 /* PureLayoutDefines.h */,
 				E38971B8BD6B1FBEF5D0758AA4E19D10 /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -410,7 +409,6 @@
 				C56450267E327807A4B9F01E9D9C7678 /* ViewController+Swinject.swift */,
 				64A2849439841525FF8F02EC732E4EF0 /* Support Files */,
 			);
-			name = SwinjectStoryboard;
 			path = SwinjectStoryboard;
 			sourceTree = "<group>";
 		};
@@ -436,10 +434,10 @@
 		DA71446B7C778BD0EBDF7F4CE5145502 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */,
+				91DE15BCDD61D67765D96E4B13E646C3 /* Pods_Guru_Food.framework */,
 				D468FE61A8C86C4B26A1DED2C27CBA99 /* Pods-Guru Food-Guru FoodUITests */,
 				40938720D9ECBB3AA3B01C1806999A36 /* Pods-Guru FoodTests */,
-				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */,
+				E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */,
 				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject */,
 				357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard */,
 			);
@@ -515,7 +513,6 @@
 				03D5213AC0057938135B596FCE7E5BCC /* UnavailableItems.swift */,
 				E0B9222F25564C5043F7CC049304851A /* Support Files */,
 			);
-			name = Swinject;
 			path = Swinject;
 			sourceTree = "<group>";
 		};
@@ -595,7 +592,7 @@
 			);
 			name = PureLayout;
 			productName = PureLayout;
-			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout */;
+			productReference = E4E7B3DD46ABB0DBBB56BD5AE90E4911 /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		46065AF968A5A92D450BB21F7F24367D /* Swinject */ = {
@@ -674,7 +671,7 @@
 			);
 			name = "Pods-Guru Food";
 			productName = Pods_Guru_Food;
-			productReference = 91DE15BCDD61D67765D96E4B13E646C3 /* Pods-Guru Food */;
+			productReference = 91DE15BCDD61D67765D96E4B13E646C3 /* Pods_Guru_Food.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */ = {
